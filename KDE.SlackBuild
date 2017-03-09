@@ -93,10 +93,12 @@ if [[ "${CHECK_PACKAGE_VERSION}" != "true" ]]; then
         DEPS=""
         [[ "$1" == "deps" ]] && DEPS="/$2"
         ARCHDIR="${SRCDIR}/$1${DEPS}"
+        PKGNAME="$2"
+        [[ "${PKGNAME}" == "qt5" ]] && PKGNAME="qt"
         SOURCEARCH=$(find "${ARCHDIR}" -maxdepth 1 -type f \
-            -name "$2-*${SRCEXT}")
+            -name "${PKGNAME}-*${SRCEXT}")
         if [[ "x${SOURCEARCH}" == "x" ]]; then
-            src_arch_not_found_mess "$2" "${ARCHDIR}"
+            src_arch_not_found_mess "${PKGNAME}" "${ARCHDIR}"
             exit 1
         fi
     elif [[ $# -eq 1 ]]; then
@@ -107,6 +109,7 @@ if [[ "${CHECK_PACKAGE_VERSION}" != "true" ]]; then
                 DEPS=""
                 [[ "${MODULE}" == "deps" ]] && DEPS="/${PKGNAME}"
                 ARCHDIR="${SRCDIR}/${MODULE}${DEPS}"
+                [[ "${PKGNAME}" == "qt5" ]] && PKGNAME="qt"
                 SOURCEARCH=$(find "${ARCHDIR}" -maxdepth 1 -type f \
                     -name "${PKGNAME}-*${SRCEXT}")
                 if [[ "x${SOURCEARCH}" == "x" ]]; then
@@ -122,6 +125,7 @@ if [[ "${CHECK_PACKAGE_VERSION}" != "true" ]]; then
             DEPS=""
             [[ "${MODULE}" == "deps" ]] && DEPS="/${PKGNAME}"
             ARCHDIR="${SRCDIR}/${MODULE}${DEPS}"
+            [[ "${PKGNAME}" == "qt5" ]] && PKGNAME="qt"
             SOURCEARCH=$(find "${ARCHDIR}" -maxdepth 1 -type f \
                 -name "${PKGNAME}-*${SRCEXT}")
             if [[ "x${SOURCEARCH}" == "x" ]]; then

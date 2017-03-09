@@ -8,9 +8,9 @@ PLASMA_VERSION="5.9.3"
 # KDE Applications version
 KDE_APP_VERSION="16.12.2"
 # temp directory for building packages
-TEMP="/tmp/kde-build"
+TEMP="/tmp/kde-plasma5-build"
 # output for packages
-OUTPUT="/root/src/kde-packages"
+OUTPUT="/root/src/kde-plasma5-packages"
 # package extension
 EXT="txz"
 # tag for package

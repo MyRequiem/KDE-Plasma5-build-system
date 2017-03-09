@@ -8,9 +8,11 @@ esac
 
 if [[ "${ARCH}" == "x86_64" ]]; then
     export LIBDIRSUFFIX="64"
+    export SLKLDFLAGS="-L/usr/lib64"
     export SLKCFLAGS="-O2 -fPIC"
 else
     export LIBDIRSUFFIX=""
+    export SLKLDFLAGS=""
     export SLKCFLAGS="-O2 -march=i586 -mtune=i686"
 fi
 
