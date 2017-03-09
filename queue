@@ -1,0 +1,79 @@
+####
+# Modules: deps frameworks
+####
+
+# Building dependencies
+# ======================
+# deps for qt5
+deps:libinput
+deps:libxkbcommon
+# qt5 - the base of KDE software
+deps:qt5
+# Qt5-based dependencies
+# deps:phonon
+# deps:phonon-gstreamer
+# deps:libdbusmenu-gtk
+# deps:libdbusmenu-qt5
+# deps:polkit-qt5-1
+
+# Building KDE frameworks
+# ========================
+# frameworks:extra-cmake-modules
+# frameworks:kitemmodels
+# frameworks:kitemviews
+# frameworks:kplotting
+# frameworks:threadweaver
+# frameworks:kcodecs
+# frameworks:kguiaddons
+# frameworks:kidletime
+# frameworks:kwidgetsaddons
+# frameworks:sonnet
+# frameworks:kconfig
+# frameworks:kwindowsystem
+# frameworks:solid
+# frameworks:kglobalaccel
+# frameworks:karchive
+# frameworks:kdbusaddons
+# frameworks:kcoreaddons
+# frameworks:kjs
+# frameworks:kimageformats
+# frameworks:kauth
+# frameworks:kcrash
+# frameworks:kjobwidgets
+# frameworks:kcompletion
+# frameworks:ki18n
+# frameworks:kdoctools
+# frameworks:kdnssd
+# frameworks:kconfigwidgets
+# frameworks:kservice
+# frameworks:kiconthemes
+# frameworks:knotifications
+# frameworks:kwallet
+# frameworks:kpty
+# frameworks:kemoticons
+# frameworks:kdesu
+# frameworks:ktextwidgets
+# frameworks:kxmlgui
+# frameworks:kbookmarks
+# frameworks:kio
+# frameworks:kdesignerplugin
+# frameworks:knewstuff
+# frameworks:kparts
+# frameworks:kpackage
+# frameworks:kdeclarative
+# frameworks:kcmutils
+# frameworks:kinit
+# frameworks:kded
+# frameworks:knotifyconfig
+# frameworks:kunitconversion
+# frameworks:kjsembed
+# frameworks:kross
+# frameworks:kmediaplayer
+# frameworks:kdewebkit
+# frameworks:ktexteditor
+# frameworks:kapidox
+# frameworks:frameworkintegration
+# frameworks:kdelibs4support
+# frameworks:khtml
+# frameworks:kactivities-framework
+# frameworks:plasma-framework
