@@ -220,14 +220,24 @@ for LINE in ${QUEUELINES}; do
     #     . "${PKGPATCH}"
     # fi
     #
-    # # ./configure using custom configure script if needed,
-    # # otherwise use default configure script
-    # CONFIGURE="${CWD}/configure/${PKGNAME}.sh"
-    # ! [ -r "${CONFIGURE}" ] && CONFIGURE="${CWD}/configure/configure.sh"
-    # . "${CONFIGURE}" || exit 1
+    # # if there's any pre-install things to do, do them
+    # PREINSTALL="${CWD}/pre-install/${PKGNAME}.sh"
+    # if [ -r "${PREINSTALL}" ]; then
+    #     . "${PREINSTALL}"
+    # fi
+    #
+    # cmake using custom cmake script if needed,
+    # otherwise use default cmake script
+    # CMAKE="${CWD}/cmake/${PKGNAME}.sh"
+    # ! [ -r "${CMAKE}" ] && CMAKE="${CWD}/cmake/cmake.sh"
+    # . "${CMAKE}" || exit 1
     #
     # make "${NUMJOBS}" || make || exit 1
     # make install DESTDIR="${PKG}" || exit 1
+    #
+    # # back to source toplevel builddir, so cmake how was
+    # # started from the subdirectory "build"
+    # cd "${TMP}/${PKGNAME}-${VERSION}"
     #
     # . "${CWD}"/additional-scripts/strip-binaries.sh
     # . "${CWD}"/additional-scripts/copydocs.sh
@@ -236,11 +246,7 @@ for LINE in ${QUEUELINES}; do
     # # if there's any special post-install things to do, do them:
     # POSTINSTALL="${CWD}/post-install/${PKGNAME}.sh"
     # if [ -r "${POSTINSTALL}" ]; then
-    #     RUNSCRIPT=$(mktemp -p "${TMP}")
-    #     sed -e "s#usr/lib#usr/lib${LIBDIRSUFFIX}#g" \
-    #         "${POSTINSTALL}" > "${RUNSCRIPT}"
-    #     . "${RUNSCRIPT}"
-    #     rm -f "${RUNSCRIPT}"
+    #     . "${POSTINSTALL}"
     # fi
     #
     # mkdir -p "${PKG}"/install

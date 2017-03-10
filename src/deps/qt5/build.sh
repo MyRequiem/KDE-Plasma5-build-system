@@ -229,6 +229,10 @@ Type=Application
 Categories=Qt;Development;Debugger;
 EOF
 
+# restore QTDIR for further build packages
+QTDIR="/usr/lib${LIBDIRSUFFIX}/qt"
+export QTDIR
+
 mkdir -p "${PKG}/install"
 cat "${CWD}/slack-desc" > "${PKG}/install/slack-desc"
 cat "${CWD}/doinst.sh" > "${PKG}/install/doinst.sh"

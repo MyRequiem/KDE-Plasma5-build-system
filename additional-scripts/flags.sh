@@ -18,6 +18,8 @@ fi
 
 CWDD=$(pwd)
 export CWDD
+QTDIR="/usr/lib${LIBDIRSUFFIX}/qt"
+export QTDIR
 
 # number of parallel make jobs
 export NUMJOBS=" -j7 "
