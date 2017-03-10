@@ -1,6 +1,7 @@
 #!/bin/sh
 
-# from http://bear.alienbase.nl/mirrors/alien-kde/source/5/deps/qt5/
+# From http://bear.alienbase.nl/mirrors/alien-kde/source/5/deps/qt5/
+# The original script qt5.SlackBuild is located in this directory.
 
 PKGNAME="qt5"
 VERSION="5.7.1"
@@ -51,14 +52,6 @@ cd - || exit 1
 cd qtbase || exit 1
 zcat "${CWD}/patches/qt5.qtbug-55583.patch.gz" | patch -p1 --verbose || exit 1
 cd - || exit 1
-
-PACONF=""
-if ! pkg-config --exists libpulse 2>/dev/null; then
-    # forcibly disable pulseaudio in qtwebengine
-    zcat "${CWD}/patches/qt5.pulseaudio.diff.gz" | patch -p1 --verbose || exit 1
-    # disable pulseaudio in Qt5
-    PACONF="-no-pulseaudio"
-fi
 
 sed -i -e "s/-O2/${SLKCFLAGS}/" qtbase/mkspecs/common/g++-base.conf || exit 1
 sed -i -e "s/-O2/${SLKCFLAGS}/" qtbase/mkspecs/common/gcc-base.conf || exit 1
@@ -114,53 +107,47 @@ export QT_PLUGIN_PATH="${QTDIR}/qtbase/plugins"
     -no-separate-debug-info \
     -no-strip \
     -no-use-gold-linker \
-    ${PACONF} \
     -reduce-relocations \
     -no-pch
 
 make "${NUMJOBS}" || make || exit 1
 make install INSTALL_ROOT="${PKG}" || exit 1
-exit
 
+echo "Strip binaries..."
 . "${CWDD}"/additional-scripts/strip-binaries.sh
 . "${CWDD}"/additional-scripts/copydocs.sh
-. "${CWDD}"/additional-scripts/compressmanpages.sh
 
-# fix internal linking for Qt5WebKit.pc
-sed -i \
-    -e "s|-Wl,-whole-archive -lWebKit1 -Wl,-no-whole-archive -L${PWD}/qtwebkit/Source/WebKit[^ ]* ||" \
-    -e "s|-Wl,-whole-archive -lWebKit2 -Wl,-no-whole-archive -L${PWD}/qtwebkit/Source/WebKit2[^ ]* ||" \
-    -e "s|-Wl,-whole-archive -lWebCore -Wl,-no-whole-archive -L${PWD}/qtwebkit/Source/WebCore[^ ]* ||" \
-    -e "s|-Wl,-whole-archive -lANGLE -Wl,-no-whole-archive -L${PWD}/qtwebkit/Source/ThirdParty/ANGLE[^ ]* ||" \
-    -e "s|-Wl,-whole-archive -lJavaScriptCore -Wl,-no-whole-archive -L${PWD}/qtwebkit/Source/JavaScriptCore[^ ]* ||" \
-    -e "s|-Wl,-whole-archive -lWTF -Wl,-no-whole-archive -L${PWD}/qtwebkit/Source/WTF[^ ]* ||" \
-    -e "s|-Wl,-whole-archive -lleveldb -Wl,-no-whole-archive -L${PWD}/qtwebkit/Source/ThirdParty/leveldb[^ ]* ||" \
-    "${PKG}/usr/lib${LIBDIRSUFFIX}/pkgconfig/Qt5WebKit.pc"
+# remove directory "global" from documentation dir
+GLOBAL="${PKG}/usr/doc/${PKGNAME}-${VERSION}/global"
+[ -d "${GLOBAL}" ] && rm -rf "${GLOBAL}"
 
 # fix the path in prl files
 find "${PKG}/usr/lib${LIBDIRSUFFIX}" -type f -name '*.prl' \
     -exec sed -i -e '/^QMAKE_PRL_BUILD_DIR/d;s/\(QMAKE_PRL_LIBS =\).*/\1/' {} \;
 
 # fix the qmake path in pri file
-sed -i "s,${QTDIR}/qtbase,/usr/lib${LIBDIRSUFFIX}/qt5," \
-"${PKG}/usr/lib${LIBDIRSUFFIX}/qt5/mkspecs/modules/qt_lib_bootstrap_private.pri"
+QT5LIB="usr/lib${LIBDIRSUFFIX}/qt5"
+sed -i "s,${QTDIR}/qtbase,/${QT5LIB}," \
+    "${PKG}/${QT5LIB}/mkspecs/modules/qt_lib_bootstrap_private.pri"
 
 # install symlinks to the Qt5 binaries in the $PATH:
 mkdir -p "${PKG}/usr/bin"
-for FILE in ${PKG}/usr/lib${LIBDIRSUFFIX}/${PKGNAME}/bin/*; do
-    ln -s "../lib${LIBDIRSUFFIX}/${PKGNAME}/bin/$(basename "${FILE}")" \
-        "${PKG}/usr/bin/$(basename "${FILE}")-${PKGNAME}"
+LIBBIN="lib${LIBDIRSUFFIX}/${PKGNAME}/bin"
+for FILE in "${PKG}/usr/${LIBBIN}"/*; do
+    FILE=$(basename "${FILE}")
+    ln -s "../${LIBBIN}/${FILE}" "${PKG}/usr/bin/${FILE}-${PKGNAME}"
 done
 
 # set the QT5DIR variable in the environment
-mkdir -p "${PKG}/etc/profile.d"
-sed -e "s,@LIBDIRSUFFIX@,${LIBDIRSUFFIX},g" \
-    "${CWD}/profile.d/${PKGNAME}.sh" > "${PKG}/etc/profile.d/${PKGNAME}.sh"
-sed -e "s,@LIBDIRSUFFIX@,${LIBDIRSUFFIX},g" \
-    "${CWD}/profile.d/${PKGNAME}.csh" > "${PKG}/etc/profile.d/${PKGNAME}.csh"
+PROFILED="${PKG}/etc/profile.d"
+mkdir -p "${PROFILED}"
+for EXT in sh csh; do
+    sed -e "s,@LIBDIRSUFFIX@,${LIBDIRSUFFIX},g" \
+        "${CWD}/profile.d/${PKGNAME}.${EXT}" > "${PROFILED}/${PKGNAME}.${EXT}"
+done
 chmod 0755 "${PKG}/etc/profile.d"/*
 
-# Qt5 logo:
+# Qt5 logo
 HICOLOR="${PKG}/usr/share/icons/hicolor"
 mkdir -p "${HICOLOR}/48x48/apps"
 convert qtdoc/doc/src/images/qt-logo.png  -resize 48x48 \
@@ -187,7 +174,7 @@ for ICON in qttools/src/linguist/linguist/images/icons/linguist-*-32.png; do
         "${HICOLOR}/${size}x${size}/apps/${PKGNAME}-linguist.png"
 done
 
-# .desktop files:
+# .desktop files
 APPLICATIONS="${PKG}/usr/share/applications"
 mkdir -p "${APPLICATIONS}"
 
@@ -241,17 +228,6 @@ Terminal=false
 Type=Application
 Categories=Qt;Development;Debugger;
 EOF
-
-# # Add a documentation directory:
-# mkdir -p $PKG/usr/doc/$PKGNAM-$PKGVER
-# cp -a \
-#   README qtbase/{header*,LGPL_EXCEPTION.txt,LICENSE*} \
-#   $PKG/usr/doc/$PKGNAM-$PKGVER
-# if [ -d $PKG/usr/lib${LIBDIRSUFFIX}/qt5/doc/html ]; then
-#   ( cd $PKG/usr/doc/$PKGNAM-$PKGVER
-#     ln -sf /usr/lib${LIBDIRSUFFIX}/qt5/doc/html .
-#   )
-# fi
 
 mkdir -p "${PKG}/install"
 cat "${CWD}/slack-desc" > "${PKG}/install/slack-desc"
