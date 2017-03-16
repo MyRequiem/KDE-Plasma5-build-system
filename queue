@@ -10,11 +10,10 @@ deps:libxkbcommon
 # qt5 - the base of KDE software
 deps:qt5
 # Qt5-based dependencies
-# deps:phonon
-# deps:phonon-gstreamer
-# deps:libdbusmenu-gtk
-# deps:libdbusmenu-qt5
-# deps:polkit-qt5-1
+deps:polkit-qt5-1
+deps:libdbusmenu-qt5
+deps:phonon
+deps:phonon-gstreamer
 
 # Building KDE frameworks
 # ========================
