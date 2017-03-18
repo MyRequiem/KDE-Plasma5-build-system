@@ -1,33 +1,24 @@
 #!/bin/sh
 
-PKGNAME="polkit-qt5-1"
+PKGNAME="libdbusmenu-qt5"
 
 if [[ "${CHECK_PACKAGE_VERSION}" == "true" ]]; then
     echo -en "${GREY}Check ${CYAN}${PKGNAME}${GREY} latest version:${CDEF} "
-    PKGNAMEQT4="$(echo "${PKGNAME}" | tr -d 5)"
-    rm -rf "${PKGNAMEQT4}"
-    git clone "git://anongit.kde.org/${PKGNAMEQT4}" 1>/dev/null 2>&1
-    cd "${PKGNAMEQT4}" || exit 1
-    git checkout master 1>/dev/null 2>&1
-    HEADHASH="$(git log -1 --format=%h)"
-    DATE="$(git log -1 --format=%ad --date=format:%d%m%Y)"
-    VERSION="${DATE}_${HEADHASH}"
+    URL="http://bear.alienbase.nl/mirrors/alien-kde/source/testing/deps"
+    URL="${URL}/${PKGNAME}/"
+    VERSION=$(wget -q -O - ${URL} | grep "href=\"${PKGNAME}" | \
+        grep ".tar.xz\"" | cut -d \" -f 8 | cut -d - -f 3 | rev | \
+        cut -d . -f 3- | rev)
     echo "${VERSION}"
-    PKGVER="${PKGNAME}-${VERSION}"
-    SOURCE="${PKGVER}.tar.xz"
-    cd .. || exit 1
+    SOURCE="${PKGNAME}-${VERSION}.tar.xz"
 
+    # download source archive if does not exist
     if ! [ -r "${SOURCE}" ]; then
-        echo -e "${YELLOW}Create ${PKGVER}.tar.xz ...${CDEF}"
-        rm -rf "${PKGNAMEQT4}"/.git
-        mv "${PKGNAMEQT4}" "${PKGVER}"
-        tar -cJf "${PKGVER}.tar.xz" "${PKGVER}" 1>/dev/null
-        rm -rf "${PKGVER}"
-    else
-        rm -rf "${PKGNAMEQT4}"
+        echo -e "${YELLOW}Downloading ${SOURCE} source archive${CDEF}"
+        wget "${URL}${SOURCE}"
     fi
 else
-    SOURCE=$(find . -type f -name "${PKGNAME}-[0-9]*.tar.?z*" | head -n 1 | \
+    SOURCE=$(find . -type f -name "${PKGNAME}-*.tar.?z*" | head -n 1 | \
         rev | cut -d / -f 1 | rev)
     VERSION=$(echo "${SOURCE}" | rev | cut -d - -f 1 | cut -d . -f 3- | rev)
 fi
@@ -46,17 +37,18 @@ tar xvf "${CWD}/${SOURCE}"
 cd "${PKGNAME}-${VERSION}" || exit 1
 . "${CWDD}"/additional-scripts/setperm.sh
 
-# autodetects the Qt version to use, preferring Qt 5 over Qt 4.
-# you can force a Qt 4 build passing -DUSE_QT4:bool=ON to CMake
 mkdir -p build
 cd build || exit 1
+PTH="${PATH}"
+export QTDIR="/usr/lib${LIBDIRSUFFIX}/qt5"
+export PATH="${QTDIR}/bin:${PATH}"
 cmake \
-    "${KDE_OPT_ARGS}" \
     -DCMAKE_C_FLAGS:STRING="${SLKCFLAGS}" \
     -DCMAKE_CXX_FLAGS:STRING="${SLKCFLAGS}" \
     -DCMAKE_INSTALL_PREFIX=/usr \
-    -DMAN_INSTALL_DIR=/usr/man \
     -DLIB_SUFFIX="${LIBDIRSUFFIX}" \
+    -DUSE_QT4:BOOL=FALSE \
+    -DUSE_QT5:BOOL=TRUE \
     ..
 
 make "${NUMJOBS}" || make || exit 1
@@ -65,7 +57,9 @@ cd .. || exit 1
 
 . "${CWDD}"/additional-scripts/strip-binaries.sh
 . "${CWDD}"/additional-scripts/copydocs.sh
-. "${CWDD}"/additional-scripts/compressmanpages.sh
+
+DOCS="${PKG}/usr/doc/${PKGNAME}-${VERSION}"
+[ -d "${DOCS}/${PKGNAME}-doc" ] && mv "${DOCS}/${PKGNAME}-doc" "${DOCS}/html"
 
 mkdir -p "${PKG}/install"
 cat "${CWD}/slack-desc" > "${PKG}/install/slack-desc"
@@ -76,6 +70,10 @@ BUILD=$(cat "${CWDD}/build/${PKGNAME}" 2>/dev/null || echo "1")
 PKG="${OUTPUT}/deps/${PKGNAME}-${VERSION}-${ARCH}-${BUILD}_${TAG}.${EXT}"
 rm -f "${PKG}"
 makepkg -l y -c n "${PKG}"
+
+export QTDIR="/usr/lib${LIBDIRSUFFIX}/qt"
+PATH="${PTH}"
+export PATH
 
 if [[ "${INSTALL_AFTER_BUILD}" == "true" ]]; then
     upgradepkg --install-new --reinstall "${PKG}"
