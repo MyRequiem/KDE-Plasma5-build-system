@@ -4,21 +4,29 @@ PKGNAME="libdbusmenu-qt5"
 
 if [[ "${CHECK_PACKAGE_VERSION}" == "true" ]]; then
     echo -en "${GREY}Check ${CYAN}${PKGNAME}${GREY} latest version:${CDEF} "
-    URL="http://bear.alienbase.nl/mirrors/alien-kde/source/testing/deps"
-    URL="${URL}/${PKGNAME}/"
-    VERSION=$(wget -q -O - ${URL} | grep "href=\"${PKGNAME}" | \
-        grep ".tar.xz\"" | cut -d \" -f 8 | cut -d - -f 3 | rev | \
-        cut -d . -f 3- | rev)
+    PKGNAMEQT4="$(echo "${PKGNAME}" | tr -d 5)"
+    rm -rf "${PKGNAMEQT4}"
+    bzr branch lp:"${PKGNAMEQT4}" 1>/dev/null 2>&1
+    cd "${PKGNAMEQT4}" || exit 1
+    REVISION="$(bzr log | grep revno | head -n 1 | cut -d " " -f 2)"
+    DATE="$(bzr log | grep timestamp | head -n 1 | cut -d " " -f 3 | tr -d -)"
+    VERSION="${REVISION}_${DATE}"
     echo "${VERSION}"
-    SOURCE="${PKGNAME}-${VERSION}.tar.xz"
+    PKGVER="${PKGNAME}-${VERSION}"
+    SOURCE="${PKGVER}.tar.xz"
+    cd .. || exit 1
 
-    # download source archive if does not exist
     if ! [ -r "${SOURCE}" ]; then
-        echo -e "${YELLOW}Downloading ${SOURCE} source archive${CDEF}"
-        wget "${URL}${SOURCE}"
+        echo -e "${YELLOW}Create ${PKGVER}.tar.xz ...${CDEF}"
+        rm -rf "${PKGNAMEQT4}"/.bzr*
+        mv "${PKGNAMEQT4}" "${PKGVER}"
+        tar -cJf "${PKGVER}.tar.xz" "${PKGVER}" 1>/dev/null
+        rm -rf "${PKGVER}"
+    else
+        rm -rf "${PKGNAMEQT4}"
     fi
 else
-    SOURCE=$(find . -type f -name "${PKGNAME}-*.tar.?z*" | head -n 1 | \
+    SOURCE=$(find . -type f -name "${PKGNAME}-[0-9]*.tar.?z*" | head -n 1 | \
         rev | cut -d / -f 1 | rev)
     VERSION=$(echo "${SOURCE}" | rev | cut -d - -f 1 | cut -d . -f 3- | rev)
 fi

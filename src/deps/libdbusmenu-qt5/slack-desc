@@ -14,6 +14,6 @@ libdbusmenu-qt5: applications to export and import their menus over DBus.
 libdbusmenu-qt5:
 libdbusmenu-qt5:
 libdbusmenu-qt5:
-libdbusmenu-qt5:
 libdbusmenu-qt5: Homepage: https://launchpad.net/libdbusmenu-qt/
+libdbusmenu-qt5: Download: bzr branch lp:libdbusmenu-qt
 libdbusmenu-qt5:
