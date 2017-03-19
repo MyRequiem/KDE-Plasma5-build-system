@@ -1,12 +1,14 @@
 #!/bin/bash
 
 # ============================== Settings ======================================
+# main KDE URL for downloading source
+KDEDOWNLOAD="https://download.kde.org/stable"
 # KDE Frameworks 5 version
-KF_VERSION="5.31.0"
+KF_VERSION="5.32.0"
 # Plasma version
 PLASMA_VERSION="5.9.3"
 # KDE Applications version
-KDE_APP_VERSION="16.12.2"
+KDE_APP_VERSION="16.12.3"
 # temp directory for building packages
 TEMP="/tmp/kde-plasma5-build"
 # output for packages
@@ -31,6 +33,7 @@ ONLY_DOWNLOAD="false"
 [[ "${ONLY_DOWNLOAD}" == "true" ]] && CHECK_PACKAGE_VERSION="true" &&
     BUILD_ONLY_NOT_EXIST="false"
 
+export KDEDOWNLOAD
 export KF_VERSION
 export PLASMA_VERSION
 export KDE_APP_VERSION

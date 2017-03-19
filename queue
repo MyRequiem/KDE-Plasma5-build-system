@@ -9,6 +9,7 @@ deps:libinput
 deps:libxkbcommon
 # qt5 - the base of KDE software
 deps:qt5
+frameworks:extra-cmake-modules
 # Qt5-based dependencies
 deps:polkit-qt5-1
 deps:libdbusmenu-qt5
@@ -17,7 +18,6 @@ deps:phonon-gstreamer
 
 # Building KDE frameworks
 # ========================
-# frameworks:extra-cmake-modules
 # frameworks:kitemmodels
 # frameworks:kitemviews
 # frameworks:kplotting

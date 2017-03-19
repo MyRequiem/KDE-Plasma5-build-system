@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export VERSION="${KF_VERSION}"
+MINVER="$(echo "${VERSION}" | rev | cut -d . -f 2- | rev)"
+export DOWNLOADURL="${KDEDOWNLOAD}/${MODULE}/${MINVER}"
