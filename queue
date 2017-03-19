@@ -16,6 +16,32 @@ deps:libdbusmenu-qt5
 deps:phonon
 deps:phonon-gstreamer
 
+# Building KDE4 part
+kde4:akonadi4
+kde4:kdelibs
+# kde4:nepomuk-core
+# kde4:kdepimlibs4
+# kde4:kfilemetadata
+# kde4:baloo
+# kde4:kactivities
+# kde4:katepart4
+# kde4:konsolepart4
+# kde4:smokegen
+# kde4:smokeqt
+# kde4:qtruby
+# kde4:perlqt
+# kde4:smokekde
+# kde4:korundum
+# kde4:perlkde
+# kde4:pykde4
+# kde4:kross-interpreters
+# kde4:libkdegames4
+# kde4:libkmahjongg4
+# kde4:oktetapart4
+# kde4:libksane4
+# kde4:libkexiv2_4
+
+
 # Building KDE frameworks
 # ========================
 # frameworks:kitemmodels

@@ -174,19 +174,7 @@ for LINE in ${QUEUELINES}; do
     # build packages from other modules
     if [[ "${CHECK_PACKAGE_VERSION}" == "true" ]]; then
         echo -en "${GREY}Check ${CYAN}${PKGNAME}${GREY} latest release:${CDEF} "
-        . "${CWD}/urls/${PKGNAME}"
-        echo "${VERSION}"
-        SOURCE="${PKGNAME}-${VERSION}.tar.xz"
-        DOWNLOADURL="${DOWNLOADURL}/${SOURCE}"
-
-        # download source archive if does not exist
-        if ! [ -r "${SRCDIR}/${MODULE}/${SOURCE}" ]; then
-            echo -e "${YELLOW}Downloading ${SOURCE} source archive${CDEF}"
-            (
-                cd "${SRCDIR}/${MODULE}" || exit 1
-                wget "${DOWNLOADURL}"
-            )
-        fi
+        . "${CWD}/download/${PKGNAME}.sh"
     else
         SOURCE=$(find "${SRCDIR}/${MODULE}" -type f \
             -name "${PKGNAME}-[0-9]*.tar.?z*" | head -n 1 | rev | \
@@ -208,10 +196,10 @@ for LINE in ${QUEUELINES}; do
     . "${CWD}"/additional-scripts/setperm.sh
 
     # if any patches are needed, call this script to apply them
-    # PKGPATCH="${CWD}/patches/${PKGNAME}.sh"
-    # if [ -r "${PKGPATCH}" ]; then
-    #     . "${PKGPATCH}"
-    # fi
+    PKGPATCH="${CWD}/patches/${PKGNAME}.sh"
+    if [ -r "${PKGPATCH}" ]; then
+        . "${PKGPATCH}"
+    fi
 
     # if there's any pre-install things to do, do them
     # PREINSTALL="${CWD}/pre-install/${PKGNAME}.sh"
@@ -237,20 +225,21 @@ for LINE in ${QUEUELINES}; do
     . "${CWD}"/additional-scripts/compressmanpages.sh
 
     # if there's any special post-install things to do, do them:
-    # POSTINSTALL="${CWD}/post-install/${PKGNAME}.sh"
-    # if [ -r "${POSTINSTALL}" ]; then
-    #     . "${POSTINSTALL}"
-    # fi
+    POSTINSTALL="${CWD}/post-install/${PKGNAME}.sh"
+    if [ -r "${POSTINSTALL}" ]; then
+        echo "POSTINSTALL"
+        . "${POSTINSTALL}"
+    fi
 
     mkdir -p "${PKG}"/install
     cat "${CWD}/slack-desc/${PKGNAME}" > "${PKG}/install/slack-desc"
 
     # if this package requires some doinst.sh, add it here
-    # DOINSTALL="${CWD}/doinst.sh/${PKGNAME}.sh"
-    # if [ -r "${DOINSTALL}"  ]; then
-    #     sed -e "s#usr/lib#usr/lib${LIBDIRSUFFIX}#g" "${DOINSTALL}" >> \
-    #         "${PKG}/install/doinst.sh"
-    # fi
+    DOINSTALL="${CWD}/doinst.sh/${PKGNAME}.sh"
+    if [ -r "${DOINSTALL}"  ]; then
+        sed -e "s#usr/lib#usr/lib${LIBDIRSUFFIX}#g" "${DOINSTALL}" >> \
+            "${PKG}/install/doinst.sh"
+    fi
 
     PKGARCH="${ARCH}"
     if grep -Eq "^${PKGNAME}$" "${CWD}/noarch"; then

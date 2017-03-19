@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+        |-----handy-ruler------------------------------------------------------|
+akonadi4: akonadi4 (PIM storage service)
+akonadi4:
+akonadi4: akonadi is an extensible cross-desktop storage service for PIM data
+akonadi4: and meta data providing concurrent read, write, and query access.
+akonadi4: It will provide a unique desktop wide object identification and
+akonadi4: retrieval.
+akonadi4: This package contains the 0.x version which is required for the
+akonadi4: older Qt4 based KDE-PIM applications.
+akonadi4:
+akonadi4: Homepage: http://www.kdepim.org/akonadi/
+akonadi4: Download: https://download.kde.org/stable/akonadi/src/
