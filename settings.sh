@@ -3,6 +3,8 @@
 # ============================== Settings ======================================
 # main KDE URL for downloading source
 KDEDOWNLOAD="https://download.kde.org/stable"
+# KDE4 version in KDEDOWNLOAD page
+KDE4VERSION="4.14.3"
 # KDE Frameworks 5 version
 KF_VERSION="5.32.0"
 # Plasma version
