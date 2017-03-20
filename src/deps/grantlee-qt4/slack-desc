@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+           |-----handy-ruler---------------------------------------------------|
+grantlee-qt4: grantlee-qt4 (string template engine for Qt4)
+grantlee-qt4:
+grantlee-qt4: Grantlee is a plugin based String Template system written using
+grantlee-qt4: the Qt4 framework. The goals of the project are to make it easier
+grantlee-qt4: for application developers to separate the structure of documents
+grantlee-qt4: from the data they contain, opening the door for theming.
+grantlee-qt4:
+grantlee-qt4:
+grantlee-qt4: Homepage: http://www.grantlee.org/
+grantlee-qt4: Download: https://github.com/steveire/grantlee/releases
+grantlee-qt4:

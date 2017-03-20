@@ -1,9 +1,9 @@
 #!/bin/bash
 
 case "$(uname -m)" in
-    i?86)   export ARCH="i586"  ;;
-    x86_64) export ARCH="x86_64";;
-    *)      echo "Supported architectures: i586 or x86_64"; exit 1;;
+    i?86)   export ARCH="i586"   ;;
+    x86_64) export ARCH="x86_64" ;;
+    *)      echo "Supported architectures: i586 or x86_64"; exit 1 ;;
 esac
 
 if [[ "${ARCH}" == "x86_64" ]]; then

@@ -15,6 +15,10 @@ deps:polkit-qt5-1
 deps:libdbusmenu-qt5
 deps:phonon
 deps:phonon-gstreamer
+deps:grantlee-qt4
+# deps:grantlee
+# deps:qca-qt5
+# deps:qt5-webkit
 
 # Building KDE4 part
 kde4:akonadi4
@@ -24,6 +28,8 @@ kde4:kdepimlibs4
 kde4:kfilemetadata
 kde4:baloo
 kde4:kactivities
+
+
 # kde4:katepart4
 # kde4:konsolepart4
 # kde4:smokegen
