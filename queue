@@ -22,8 +22,8 @@ kde4:kdelibs
 kde4:nepomuk-core
 kde4:kdepimlibs4
 kde4:kfilemetadata
-# kde4:baloo
-# kde4:kactivities
+kde4:baloo
+kde4:kactivities
 # kde4:katepart4
 # kde4:konsolepart4
 # kde4:smokegen
@@ -41,6 +41,11 @@ kde4:kfilemetadata
 # kde4:libksane4
 # kde4:libkexiv2_4
 
+# !!!!!!!!!!!!!!!!!
+# TODO:
+#     kwebkitpart
+#     oxygen-gtk2
+# !!!!!!!!!!!!!!!!!
 
 # Building KDE frameworks
 # ========================

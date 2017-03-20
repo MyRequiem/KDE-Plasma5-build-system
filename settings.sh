@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # ============================== Settings ======================================
+# OS version
+SLACKWAREVER="14.2"
 # main KDE URL for downloading source
 KDEDOWNLOAD="https://download.kde.org/stable"
 # KDE4 version in KDEDOWNLOAD page
@@ -24,7 +26,7 @@ BUILD_ONLY_NOT_EXIST="true"
 # install package after build
 INSTALL_AFTER_BUILD="false"
 # check package version
-CHECK_PACKAGE_VERSION="false"
+CHECK_PACKAGE_VERSION="true"
 # only download source code (without build)
 ONLY_DOWNLOAD="false"
 # ========================== End of settings ===================================
@@ -35,7 +37,9 @@ ONLY_DOWNLOAD="false"
 [[ "${ONLY_DOWNLOAD}" == "true" ]] && CHECK_PACKAGE_VERSION="true" &&
     BUILD_ONLY_NOT_EXIST="false"
 
+export SLACKWAREVER
 export KDEDOWNLOAD
+export KDE4VERSION
 export KF_VERSION
 export PLASMA_VERSION
 export KDE_APP_VERSION
