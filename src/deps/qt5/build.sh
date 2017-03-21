@@ -29,7 +29,7 @@ cd "${TMP}" || exit 1
 UNPACKSRCDIR="$(basename "${SOURCE}" .tar.xz)"
 echo "Removing old ${TMP}/${UNPACKSRCDIR} directory ..."
 rm -rf "${UNPACKSRCDIR}"
-echo "Unpacking archive ${SOURCE} inro ${TMP} ..."
+echo "Unpacking archive ${SOURCE} into ${TMP} ..."
 tar xf "${CWD}/${SOURCE}"
 cd "${UNPACKSRCDIR}" || exit 1
 echo "Set owner and permissions into ${TMP}/${UNPACKSRCDIR} ..."

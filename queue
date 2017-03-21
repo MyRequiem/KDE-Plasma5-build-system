@@ -2,25 +2,25 @@
 # Modules: deps frameworks
 ####
 
-# Building dependencies
-# ======================
-# deps for qt5
+### Building dependencies
+## deps for qt5
 deps:libinput
 deps:libxkbcommon
-# qt5 - the base of KDE software
+## qt5 - the base of KDE software
 deps:qt5
 frameworks:extra-cmake-modules
-# Qt5-based dependencies
+## Qt5-based dependencies
 deps:polkit-qt5-1
 deps:libdbusmenu-qt5
 deps:phonon
 deps:phonon-gstreamer
 deps:grantlee-qt4
-# deps:grantlee
-# deps:qca-qt5
-# deps:qt5-webkit
 
-# Building KDE4 part
+deps:grantlee
+deps:qca-qt5
+deps:qt5-webkit
+
+### Building KDE4 part
 kde4:akonadi4
 kde4:kdelibs
 kde4:nepomuk-core
@@ -29,29 +29,25 @@ kde4:kfilemetadata
 kde4:baloo
 kde4:kactivities
 
+kde4:smokegen
+kde4:smokeqt
+kde4:qtruby
+kde4:perlqt
+kde4:smokekde
+kde4:korundum
+kde4:perlkde
+kde4:pykde4
+kde4:kross-interpreters
+kde4:libkdegames4
+kde4:libkmahjongg4
+kde4:libksane4
+kde4:libkexiv2_4
 
-# kde4:katepart4
-# kde4:konsolepart4
-# kde4:smokegen
-# kde4:smokeqt
-# kde4:qtruby
-# kde4:perlqt
-# kde4:smokekde
-# kde4:korundum
-# kde4:perlkde
-# kde4:pykde4
-# kde4:kross-interpreters
-# kde4:libkdegames4
-# kde4:libkmahjongg4
-# kde4:oktetapart4
-# kde4:libksane4
-# kde4:libkexiv2_4
+### Building kde4-extragear part
+kde4-extragear:kwebkitpart
+# kde4-extragear:oxygen-gtk2
 
-# !!!!!!!!!!!!!!!!!
-# TODO:
-#     kwebkitpart
-#     oxygen-gtk2
-# !!!!!!!!!!!!!!!!!
+
 
 # Building KDE frameworks
 # ========================

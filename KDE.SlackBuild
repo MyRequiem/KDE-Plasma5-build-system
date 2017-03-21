@@ -95,6 +95,7 @@ if [[ "${CHECK_PACKAGE_VERSION}" != "true" ]]; then
         ARCHDIR="${SRCDIR}/$1${DEPS}"
         PKGNAME="$2"
         [[ "${PKGNAME}" == "qt5" ]] && PKGNAME="qt"
+        [[ "${PKGNAME}" == "qt5-webkit" ]] && PKGNAME="qtwebkit"
         SOURCEARCH=$(find "${ARCHDIR}" -maxdepth 1 -type f \
             -name "${PKGNAME}-*${SRCEXT}")
         if [[ "x${SOURCEARCH}" == "x" ]]; then
@@ -110,6 +111,7 @@ if [[ "${CHECK_PACKAGE_VERSION}" != "true" ]]; then
                 [[ "${MODULE}" == "deps" ]] && DEPS="/${PKGNAME}"
                 ARCHDIR="${SRCDIR}/${MODULE}${DEPS}"
                 [[ "${PKGNAME}" == "qt5" ]] && PKGNAME="qt"
+                [[ "${PKGNAME}" == "qt5-webkit" ]] && PKGNAME="qtwebkit"
                 SOURCEARCH=$(find "${ARCHDIR}" -maxdepth 1 -type f \
                     -name "${PKGNAME}-*${SRCEXT}")
                 if [[ "x${SOURCEARCH}" == "x" ]]; then
@@ -126,6 +128,7 @@ if [[ "${CHECK_PACKAGE_VERSION}" != "true" ]]; then
             [[ "${MODULE}" == "deps" ]] && DEPS="/${PKGNAME}"
             ARCHDIR="${SRCDIR}/${MODULE}${DEPS}"
             [[ "${PKGNAME}" == "qt5" ]] && PKGNAME="qt"
+            [[ "${PKGNAME}" == "qt5-webkit" ]] && PKGNAME="qtwebkit"
             SOURCEARCH=$(find "${ARCHDIR}" -maxdepth 1 -type f \
                 -name "${PKGNAME}-*${SRCEXT}")
             if [[ "x${SOURCEARCH}" == "x" ]]; then
@@ -202,10 +205,10 @@ for LINE in ${QUEUELINES}; do
     fi
 
     # if there's any pre-install things to do, do them
-    # PREINSTALL="${CWD}/pre-install/${PKGNAME}.sh"
-    # if [ -r "${PREINSTALL}" ]; then
-    #     . "${PREINSTALL}"
-    # fi
+    PREINSTALL="${CWD}/pre-install/${PKGNAME}.sh"
+    if [ -r "${PREINSTALL}" ]; then
+        . "${PREINSTALL}"
+    fi
 
     # cmake using custom cmake script if needed,
     # otherwise use default cmake script
