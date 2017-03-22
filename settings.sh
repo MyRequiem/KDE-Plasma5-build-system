@@ -28,7 +28,7 @@ INSTALL_AFTER_BUILD="false"
 # check package version
 CHECK_PACKAGE_VERSION="false"
 # only download source code (without build)
-ONLY_DOWNLOAD="false"
+ONLY_DOWNLOAD="true"
 # ========================== End of settings ===================================
 
 
