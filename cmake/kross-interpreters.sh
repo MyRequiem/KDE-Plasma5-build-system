@@ -14,11 +14,10 @@ cmake \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DMAN_INSTALL_DIR=/usr/man \
     -DSYSCONF_INSTALL_DIR=/etc/kde \
-    -DLIB_SUFFIX="${LIBDIRSUFFIX}" \
-    -DLIB_INSTALL_DIR="lib${LIBDIRSUFFIX}" \
-    -DLIBEXEC_INSTALL_DIR="lib${LIBDIRSUFFIX}" \
-    -DQT_PLUGIN_INSTALL_DIR="lib${LIBDIRSUFFIX}/qt5/plugins" \
-    -DQML_INSTALL_DIR="lib${LIBDIRSUFFIX}/qt5/qml" \
+    -DLIB_INSTALL_DIR="/usr/lib${LIBDIRSUFFIX}" \
+    -DLIBEXEC_INSTALL_DIR="/usr/lib${LIBDIRSUFFIX}" \
+    -DQT_PLUGIN_INSTALL_DIR="/usr/lib${LIBDIRSUFFIX}/qt5/plugins" \
+    -DQML_INSTALL_DIR="/usr/lib${LIBDIRSUFFIX}/qt5/qml" \
     -DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
     -DBUILD_TESTING=OFF \
     -DQca-qt5_DIR="/usr/lib${LIBDIRSUFFIX}/cmake/Qca" \
