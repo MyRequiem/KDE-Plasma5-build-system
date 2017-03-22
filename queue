@@ -57,11 +57,10 @@ frameworks:kcodecs
 frameworks:kguiaddons
 frameworks:kidletime
 frameworks:kwidgetsaddons
-
 frameworks:sonnet
+frameworks:kconfig
+frameworks:kwindowsystem
 
-# frameworks:kconfig
-# frameworks:kwindowsystem
 # frameworks:solid
 # frameworks:kglobalaccel
 # frameworks:karchive
