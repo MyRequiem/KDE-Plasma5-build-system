@@ -15,7 +15,6 @@ deps:libdbusmenu-qt5
 deps:phonon
 deps:phonon-gstreamer
 deps:grantlee-qt4
-
 deps:grantlee
 deps:qca-qt5
 deps:qt5-webkit
@@ -45,8 +44,8 @@ kde4:libkexiv2_4
 
 ### Building kde4-extragear part
 kde4-extragear:kwebkitpart
-# kde4-extragear:oxygen-gtk2
-
+kde4-extragear:oxygen-gtk2
+kde4-extragear:oxygen-gtk3
 
 
 # Building KDE frameworks
