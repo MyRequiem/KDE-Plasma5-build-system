@@ -2,7 +2,7 @@
 
 cd "${SRCDIR}/${MODULE}" || exit 1
 rm -rf "${PKGNAME}"
-git clone "git://anongit.kde.org/kwebkitpart.git" 1>/dev/null 2>&1
+git clone "git://anongit.kde.org/kwebkitpart.git"
 cd "${PKGNAME}" || exit 1
 VERSION=$(git tag | tr -d "v" | sort -V | tail -n 1)
 export VERSION

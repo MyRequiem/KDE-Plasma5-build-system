@@ -60,55 +60,55 @@ frameworks:kwidgetsaddons
 frameworks:sonnet
 frameworks:kconfig
 frameworks:kwindowsystem
+frameworks:solid
+frameworks:kcoreaddons
+frameworks:kcrash
+frameworks:kdbusaddons
+frameworks:ki18n
+frameworks:kservice
+frameworks:kglobalaccel
+frameworks:karchive
+frameworks:kdoctools
+frameworks:kjs
+frameworks:kjsembed
+frameworks:kimageformats
 
-# frameworks:solid
-# frameworks:kglobalaccel
-# frameworks:karchive
-# frameworks:kdbusaddons
-# frameworks:kcoreaddons
-# frameworks:kjs
-# frameworks:kimageformats
-# frameworks:kauth
-# frameworks:kcrash
-# frameworks:kjobwidgets
-# frameworks:kcompletion
-# frameworks:ki18n
-# frameworks:kdoctools
+frameworks:kauth
+frameworks:kjobwidgets
+frameworks:kcompletion
 # frameworks:kdnssd
-# frameworks:kconfigwidgets
-# frameworks:kservice
-# frameworks:kiconthemes
-# frameworks:knotifications
+frameworks:kconfigwidgets
+frameworks:kiconthemes
+frameworks:knotifications
 # frameworks:kwallet
-# frameworks:kpty
-# frameworks:kemoticons
-# frameworks:kdesu
-# frameworks:ktextwidgets
-# frameworks:kxmlgui
-# frameworks:kbookmarks
-# frameworks:kio
+frameworks:kpty
+frameworks:kemoticons
+frameworks:kdesu
+frameworks:ktextwidgets
+frameworks:kxmlgui
+frameworks:kbookmarks
+frameworks:kio
 # frameworks:kdesignerplugin
-# frameworks:knewstuff
-# frameworks:kparts
+frameworks:knewstuff
+frameworks:kparts
 # frameworks:kpackage
-# frameworks:kdeclarative
-# frameworks:kcmutils
-# frameworks:kinit
-# frameworks:kded
-# frameworks:knotifyconfig
+frameworks:kdeclarative
+frameworks:kcmutils
+frameworks:kinit
+frameworks:kded
+frameworks:knotifyconfig
 # frameworks:kunitconversion
-# frameworks:kjsembed
-# frameworks:kross
+frameworks:kross
 # frameworks:kmediaplayer
-# frameworks:kdewebkit
-# frameworks:ktexteditor
-# frameworks:kapidox
-# frameworks:frameworkintegration
-# frameworks:kdelibs4support
-# frameworks:khtml
-# frameworks:kactivities-framework
+frameworks:kdewebkit
+frameworks:ktexteditor
+frameworks:kapidox
+frameworks:frameworkintegration
+frameworks:kdelibs4support
+frameworks:khtml
+frameworks:kactivities-framework
+frameworks:breeze-icons
 
-# frameworks:breeze-icons
 # frameworks:oxygen-icons5
 # frameworks:kfilemetadata5
 # frameworks:kactivities-stats

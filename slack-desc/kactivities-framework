@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+                     |-----handy-ruler-----------------------------------------|
+kactivities-framework: kactivities-framework (API for using with Activities)
+kactivities-framework:
+kactivities-framework: Core components for the KDE Activity concept. When a user
+kactivities-framework: is interacting with a computer, there are three main
+kactivities-framework: areas of contextual information that may affect the
+kactivities-framework: behaviour of the system: who the user is, where they are,
+kactivities-framework: and what they are doing.
+kactivities-framework:
+kactivities-framework: Homepage: https://cgit.kde.org/kactivities.git/
+kactivities-framework: Download: https://download.kde.org/stable/frameworks/
+kactivities-framework:

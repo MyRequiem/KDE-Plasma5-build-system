@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+               |-----handy-ruler-----------------------------------------------|
+kdelibs4support: kdelibs4support (legacy support for kdelibs 4 compatibility)
+kdelibs4support:
+kdelibs4support: This framework provides code and utilities to ease the
+kdelibs4support: transition from kdelibs 4 to KDE Frameworks 5. This includes
+kdelibs4support: CMake macros and C++ classes whose functionality has been
+kdelibs4support: replaced by code in CMake, Qt and other frameworks.
+kdelibs4support:
+kdelibs4support:
+kdelibs4support: Homepage: https://cgit.kde.org/kdelibs4support.git/
+kdelibs4support: Download: git clone git://anongit.kde.org/kdelibs4support.git
+kdelibs4support:

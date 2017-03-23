@@ -3,7 +3,7 @@
 cd "${SRCDIR}/${MODULE}" || exit 1
 SRCDIRNAME=$(echo "${PKGNAME}" | tr -d 2)
 rm -rf "${SRCDIRNAME}"
-git clone "git://anongit.kde.org/oxygen-gtk.git" 1>/dev/null 2>&1
+git clone "git://anongit.kde.org/oxygen-gtk.git"
 cd "${SRCDIRNAME}" || exit 1
 VERSION=$(git tag | grep -v gtk3 | tr -d "v" | sort -V | tail -n 1)
 cd .. || exit 1

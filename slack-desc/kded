@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+    |-----handy-ruler----------------------------------------------------------|
+kded: kded (central daemon of KDE work spaces)
+kded:
+kded: KDED stands for KDE Daemon which isn't very descriptive. KDED runs in the
+kded: background and performs a number of small tasks.  Some of these tasks are
+kded: built in, others are started on demand.
+kded:
+kded:
+kded:
+kded: Homepage: https://cgit.kde.org/kded.git/
+kded: Download: https://download.kde.org/stable/frameworks/
+kded:

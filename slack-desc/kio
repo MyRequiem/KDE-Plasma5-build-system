@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+   |-----handy-ruler-----------------------------------------------------------|
+kio: kio (network transparent access to files and data)
+kio:
+kio: This framework implements almost all the file management functions you will
+kio: ever need. In fact, the KDE file manager (Dolphin) and the KDE file dialog
+kio: also uses this to provide its network-enabled file management.
+kio:
+kio:
+kio:
+kio: Homepage: https://cgit.kde.org/kio.git/
+kio: Download: https://download.kde.org/stable/frameworks/
+kio:
