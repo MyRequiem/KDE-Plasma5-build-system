@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+             |-----handy-ruler-------------------------------------------------|
+kxmlrpcclient: kxmlrpcclient (library providing API to access XML RPC)
+kxmlrpcclient:
+kxmlrpcclient: This library contains simple XML-RPC Client support. It is a
+kxmlrpcclient: complete client and is quite easy to use. Only one interface is
+kxmlrpcclient: exposed to the world, kxmlrpcclient/client.h and of that
+kxmlrpcclient: interface, you only need to use 3 methods: setUrl, setUserAgent
+kxmlrpcclient: and call.
+kxmlrpcclient:
+kxmlrpcclient: Homepage: https://cgit.kde.org/kxmlrpcclient.git/
+kxmlrpcclient: Download: https://download.kde.org/stable/frameworks/
+kxmlrpcclient:

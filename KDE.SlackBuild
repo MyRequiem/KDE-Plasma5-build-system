@@ -223,16 +223,16 @@ for LINE in ${QUEUELINES}; do
     # started from the subdirectory "build"
     cd "${TMP}/${PKGNAME}-${VERSION}" || exit 1
 
-    . "${CWD}"/additional-scripts/strip-binaries.sh
-    . "${CWD}"/additional-scripts/copydocs.sh
-    . "${CWD}"/additional-scripts/compressmanpages.sh
-
     # if there's any special post-install things to do, do them:
     POSTINSTALL="${CWD}/post-install/${PKGNAME}.sh"
     if [ -r "${POSTINSTALL}" ]; then
         echo "POSTINSTALL"
         . "${POSTINSTALL}"
     fi
+
+    . "${CWD}"/additional-scripts/strip-binaries.sh
+    . "${CWD}"/additional-scripts/copydocs.sh
+    . "${CWD}"/additional-scripts/compressmanpages.sh
 
     mkdir -p "${PKG}"/install
     sed -e "s#KDE4VERSION#${KDE4VERSION}#g" \

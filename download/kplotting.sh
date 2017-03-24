@@ -9,6 +9,6 @@ if ! [ -r "${SRCDIR}/${MODULE}/${SOURCE}" ]; then
     (
         cd "${SRCDIR}/${MODULE}" || exit 1
         MINVER="$(echo "${VERSION}" | rev | cut -d . -f 2- | rev)"
-        wget "${KDEDOWNLOAD}/${MODULE}/${MINVER}/portingAids/${SOURCE}"
+        wget "${KDEDOWNLOAD}/${MODULE}/${MINVER}/${SOURCE}"
     )
 fi

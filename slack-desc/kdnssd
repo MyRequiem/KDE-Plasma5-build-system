@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+      |-----handy-ruler--------------------------------------------------------|
+kdnssd: kdnssd (network monitor for DNS-SD services)
+kdnssd:
+kdnssd: Network service discovery using Zeroconf KDNSSD is a library for
+kdnssd: handling the DNS-based Service Discovery Protocol (DNS-SD), the layer
+kdnssd: of Zeroconf that allows network services, such as printers, to be
+kdnssd: discovered without any user intervention or centralized infrastructure.
+kdnssd:
+kdnssd:
+kdnssd: Homepage: https://cgit.kde.org/kdnssd.git/
+kdnssd: Download: https://download.kde.org/stable/frameworks/
+kdnssd:

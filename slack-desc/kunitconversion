@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+               |-----handy-ruler-----------------------------------------------|
+kunitconversion: kunitconversion (converting physical units)
+kunitconversion:
+kunitconversion: KUnitConversion provides functions to convert values in
+kunitconversion: different physical units. It supports converting different
+kunitconversion: prefixes (e.g. kilo, mega, giga) as well as converting between
+kunitconversion: different unit systems (e.g. liters, gallons).
+kunitconversion:
+kunitconversion:
+kunitconversion: Homepage: https://cgit.kde.org/kunitconversion.git/
+kunitconversion: Download: https://download.kde.org/stable/frameworks/
+kunitconversion:

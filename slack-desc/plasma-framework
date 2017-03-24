@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+                |-----handy-ruler----------------------------------------------|
+plasma-framework: plasma-framework (Plasma libraries and runtime components)
+plasma-framework:
+plasma-framework: The plasma framework provides the following:
+plasma-framework:   - QML components
+plasma-framework:   - A C++ library: libplasma
+plasma-framework:   - Script engines
+plasma-framework:
+plasma-framework:
+plasma-framework: Homepage: https://cgit.kde.org/plasma-framework.git/
+plasma-framework: Download: https://download.kde.org/stable/frameworks/
+plasma-framework:

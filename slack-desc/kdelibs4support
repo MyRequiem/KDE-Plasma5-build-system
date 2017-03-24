@@ -15,5 +15,5 @@ kdelibs4support: replaced by code in CMake, Qt and other frameworks.
 kdelibs4support:
 kdelibs4support:
 kdelibs4support: Homepage: https://cgit.kde.org/kdelibs4support.git/
-kdelibs4support: Download: git clone git://anongit.kde.org/kdelibs4support.git
+kdelibs4support: Download: https://download.kde.org/stable/frameworks/
 kdelibs4support:

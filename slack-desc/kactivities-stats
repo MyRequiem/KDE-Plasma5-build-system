@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+                 |-----handy-ruler---------------------------------------------|
+kactivities-stats: kactivities-stats (component of KDE activities)
+kactivities-stats:
+kactivities-stats: The KActivitiesStats library provides a querying mechanism
+kactivities-stats: for the data that the activitiy manager collects - which
+kactivities-stats: documents hae been opened by which applications, and what
+kactivities-stats: documents have been linked to which activity.
+kactivities-stats:
+kactivities-stats:
+kactivities-stats: Homepage: https://cgit.kde.org/kactivities-stats.git/
+kactivities-stats: Download: https://download.kde.org/stable/frameworks/
+kactivities-stats:

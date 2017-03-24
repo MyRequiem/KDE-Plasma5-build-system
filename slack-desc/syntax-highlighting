@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+                   |-----handy-ruler-------------------------------------------|
+syntax-highlighting: syntax-highlighting (engine for Kate syntax definitions)
+syntax-highlighting:
+syntax-highlighting: This is a stand-alone implementation of the Kate syntax
+syntax-highlighting: highlighting engine. It's meant as a building block for
+syntax-highlighting: text editors as well as for simple highlighted text
+syntax-highlighting: rendering, supporting both integration with a custom editor
+syntax-highlighting: as well as a ready-to-use QSyntaxHighlighter sub-class.
+syntax-highlighting:
+syntax-highlighting: Homepage: https://cgit.kde.org/syntax-highlighting.git/
+syntax-highlighting: Download: https://download.kde.org/stable/frameworks/
+syntax-highlighting:

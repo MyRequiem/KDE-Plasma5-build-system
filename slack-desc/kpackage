@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+        |-----handy-ruler------------------------------------------------------|
+kpackage: kpackage (KDE application package manager)
+kpackage:
+kpackage: The KPackage framework lets the user install and load packages of non
+kpackage: binary content such as scripted extensions or graphic assets, as if
+kpackage: they were traditional plugins.
+kpackage:
+kpackage:
+kpackage:
+kpackage: Homepage: https://cgit.kde.org/kpackage.git/
+kpackage: Download: https://download.kde.org/stable/frameworks/
+kpackage:
