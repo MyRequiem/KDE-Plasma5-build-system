@@ -15,5 +15,5 @@ oxygen-gtk2: to also have a stand-alone nice looking GTK+ theme that would
 oxygen-gtk2: behave well on other Desktop Environments.
 oxygen-gtk2:
 oxygen-gtk2: Homepage: https://cgit.kde.org/oxygen-gtk.git
-oxygen-gtk2: Download: git clone git://anongit.kde.org/oxygen-gtk.git
+oxygen-gtk2: Download: https://download.kde.org/stable/oxygen-gtk2/
 oxygen-gtk2:

@@ -10,7 +10,7 @@ KDE4VERSION="4.14.3"
 # KDE Frameworks 5 version
 KF_VERSION="5.32.0"
 # Plasma version
-PLASMA_VERSION="5.9.3"
+PLASMA_VERSION="5.9.4"
 # KDE Applications version
 KDE_APP_VERSION="16.12.3"
 # temp directory for building packages
@@ -26,9 +26,9 @@ BUILD_ONLY_NOT_EXIST="true"
 # install package after build
 INSTALL_AFTER_BUILD="false"
 # check package version
-CHECK_PACKAGE_VERSION="false"
+CHECK_PACKAGE_VERSION="true"
 # only download source code (without build)
-ONLY_DOWNLOAD="false"
+ONLY_DOWNLOAD="true"
 # ========================== End of settings ===================================
 
 
