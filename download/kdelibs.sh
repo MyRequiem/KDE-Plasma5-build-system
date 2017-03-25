@@ -1,6 +1,6 @@
 #!/bin/bash
 
-URL="https://github.com/KDE/kdelibs"
+URL="https://github.com/KDE/${PKGNAME}"
 VERSION="$(wget -q -O - "${URL}/releases" | grep "/releases/tag/v" | \
     head -n 1 | rev | cut -d \" -f 2 | cut -d "v" -f 1 | rev)"
 export VERSION

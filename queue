@@ -1,5 +1,5 @@
 ####
-# Modules: deps kde4 kde4-extragear frameworks kdepim applications
+# Modules: deps kde4 kde4-extragear frameworks kdepim
 ####
 
 ### Building dependencies
@@ -122,45 +122,46 @@ frameworks:baloo5
 frameworks:plasma-framework
 frameworks:krunner
 
-### Building applications modules
-# ==========================================
-applications:gpgmepp
-applications:kcalcore
-applications:akonadi
-applications:kholidays
+### Building applications module
+# ===============================
+kdepim:gpgmepp
+kdepim:kcalcore
+kdepim:akonadi
+kdepim:kholidays
 
-# applications:kpimtextedit
-# applications:kidentitymanagement
-# applications:kcalutils
-# applications:syndication
-# applications:kblog
-# applications:kcontacts
-# applications:kmime
-# applications:kimap
-# applications:kmbox
-# applications:kldap
-# applications:kontactinterface
-# applications:ktnef
-# applications:kalarmcal
-# applications:kmailtransport
-# applications:libkleo
-# applications:grantleetheme
-# applications:libkdepim
-# applications:pimcommon
-# applications:libgravatar
-# applications:libksieve
-# applications:kdgantt2
-# applications:mailimporter
-# applications:kdepim-apps-libs
-# applications:eventviews
-# applications:incidenceeditor
-# applications:messagelib
-# applications:mailcommon
-# applications:kleopatra
-# applications:kdepim-addons
-# applications:kdepim-runtime
-# applications:kdepim
+kdepim:kpimtextedit
+kdepim:kidentitymanagement
+kdepim:kcalutils
+kdepim:syndication
 
-# kwallet is built again after PIM applications,
+# kdepim:kblog
+# kdepim:kcontacts
+# kdepim:kmime
+# kdepim:kimap
+# kdepim:kmbox
+# kdepim:kldap
+# kdepim:kontactinterface
+# kdepim:ktnef
+# kdepim:kalarmcal
+# kdepim:kmailtransport
+# kdepim:libkleo
+# kdepim:grantleetheme
+# kdepim:libkdepim
+# kdepim:pimcommon
+# kdepim:libgravatar
+# kdepim:libksieve
+# kdepim:kdgantt2
+# kdepim:mailimporter
+# kdepim:kdepim-apps-libs
+# kdepim:eventviews
+# kdepim:incidenceeditor
+# kdepim:messagelib
+# kdepim:mailcommon
+# kdepim:kleopatra
+# kdepim:kdepim-addons
+# kdepim:kdepim-runtime
+# kdepim:kdepim
+
+# kwallet is built again after kdepim,
 # so that it can pick up support for gpgmepp
 frameworks:kwallet

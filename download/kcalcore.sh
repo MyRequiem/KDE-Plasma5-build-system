@@ -8,6 +8,6 @@ if ! [ -r "${SRCDIR}/${MODULE}/${SOURCE}" ]; then
     echo -e "${YELLOW}Downloading ${SOURCE} source archive${CDEF}"
     (
         cd "${SRCDIR}/${MODULE}" || exit 1
-        wget "${KDEDOWNLOAD}/${MODULE}/${VERSION}/src/${SOURCE}"
+        wget "${KDEDOWNLOAD}/applications/${VERSION}/src/${SOURCE}"
     )
 fi

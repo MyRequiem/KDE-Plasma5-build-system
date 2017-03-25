@@ -819,7 +819,6 @@ git://anongit.kde.org/xutils.git
 git://anongit.kde.org/yakuake.git
 git://anongit.kde.org/zanshin.git
 git://anongit.kde.org/zeroconf-ioslave.git
-
 svn co svn://anonsvn.kde.org/home/kde/trunk/extragear/utils/kdiff3/
 svn co svn://anonsvn.kde.org/home/kde/trunk/extragear/network/kftpgrabber/
 svn co svn://anonsvn.kde.org/home/kde/trunk/extragear/network/kmldonkey/

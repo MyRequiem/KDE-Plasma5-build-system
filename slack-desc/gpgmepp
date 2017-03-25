@@ -14,6 +14,6 @@ gpgmepp: It is fairly complete, with some minor things still missing
 gpgmepp: (in particular, the key edit interface). It is mostly tested using
 gpgmepp: external event loops, for which its design is optimised.
 gpgmepp:
-gpgmepp: Homepage: https://github.com/KDE/gpgmepp
+gpgmepp: Homepage: https://cgit.kde.org/gpgmepp.git/
 gpgmepp: Download: https://github.com/KDE/gpgmepp/releases
 gpgmepp:
