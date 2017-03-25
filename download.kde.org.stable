@@ -1,0 +1,1152 @@
+https://download.kde.org/stable/
+
+├── 4.14.3
+│   └── src
+│       ├── amor-4.14.3.tar.xz
+│       ├── analitza-4.14.3.tar.xz
+│       ├── ark-4.14.3.tar.xz
+│       ├── artikulate-4.14.3.tar.xz
+│       ├── audiocd-kio-4.14.3.tar.xz
+│       ├── baloo-4.14.3.tar.xz
+│       ├── baloo-widgets-4.14.3.tar.xz
+│       ├── blinken-4.14.3.tar.xz
+│       ├── bomber-4.14.3.tar.xz
+│       ├── bovo-4.14.3.tar.xz
+│       ├── cantor-4.14.3.tar.xz
+│       ├── cervisia-4.14.3.tar.xz
+│       ├── dolphin-plugins-4.14.3.tar.xz
+│       ├── dragon-4.14.3.tar.xz
+│       ├── ffmpegthumbs-4.14.3.tar.xz
+│       ├── filelight-4.14.3.tar.xz
+│       ├── granatier-4.14.3.tar.xz
+│       ├── gwenview-4.14.3.tar.xz
+│       ├── jovie-4.14.3.tar.xz
+│       ├── juk-4.14.3.tar.xz
+│       ├── kaccessible-4.14.3.tar.xz
+│       ├── kajongg-4.14.3.tar.xz
+│       ├── kalgebra-4.14.3.tar.xz
+│       ├── kalzium-4.14.3.tar.xz
+│       ├── kamera-4.14.3.tar.xz
+│       ├── kanagram-4.14.3.tar.xz
+│       ├── kapman-4.14.3.tar.xz
+│       ├── kapptemplate-4.14.3.tar.xz
+│       ├── kate-4.14.3.tar.xz
+│       ├── katomic-4.14.3.tar.xz
+│       ├── kblackbox-4.14.3.tar.xz
+│       ├── kblocks-4.14.3.tar.xz
+│       ├── kbounce-4.14.3.tar.xz
+│       ├── kbreakout-4.14.3.tar.xz
+│       ├── kbruch-4.14.3.tar.xz
+│       ├── kcachegrind-4.14.3.tar.xz
+│       ├── kcalc-4.14.3.tar.xz
+│       ├── kcharselect-4.14.3.tar.xz
+│       ├── kcolorchooser-4.14.3.tar.xz
+│       ├── kcron-4.14.3.tar.xz
+│       ├── kde-base-artwork-4.14.3.tar.xz
+│       ├── kde-baseapps-4.14.3.tar.xz
+│       ├── kde-baseapps-4.14.3a.tar.xz
+│       ├── kde-dev-scripts-4.14.3.tar.xz
+│       ├── kde-dev-utils-4.14.3.tar.xz
+│       ├── kde-l10n
+│       │   └── kde-l10n-ru-4.14.3.tar.xz
+│       ├── kde-runtime-4.14.3.tar.xz
+│       ├── kde-wallpapers-4.14.3.tar.xz
+│       ├── kde-workspace-4.11.14.tar.xz
+│       ├── kdeartwork-4.14.3.tar.xz
+│       ├── kdegraphics-mobipocket-4.14.3.tar.xz
+│       ├── kdegraphics-strigi-analyzer-4.14.3.tar.xz
+│       ├── kdegraphics-thumbnailers-4.14.3.tar.xz
+│       ├── kdelibs-4.14.3.tar.xz
+│       ├── kdenetwork-filesharing-4.14.3.tar.xz
+│       ├── kdenetwork-strigi-analyzers-4.14.3.tar.xz
+│       ├── kdepim-4.14.3.tar.xz
+│       ├── kdepim-runtime-4.14.3.tar.xz
+│       ├── kdepimlibs-4.14.3.tar.xz
+│       ├── kdeplasma-addons-4.14.3.tar.xz
+│       ├── kdesdk-kioslaves-4.14.3.tar.xz
+│       ├── kdesdk-strigi-analyzers-4.14.3.tar.xz
+│       ├── kdesdk-thumbnailers-4.14.3.tar.xz
+│       ├── kdewebdev-4.14.3.tar.xz
+│       ├── kdf-4.14.3.tar.xz
+│       ├── kdiamond-4.14.3.tar.xz
+│       ├── kfilemetadata-4.14.3.tar.xz
+│       ├── kfloppy-4.14.3.tar.xz
+│       ├── kfourinline-4.14.3.tar.xz
+│       ├── kgamma-4.14.3.tar.xz
+│       ├── kgeography-4.14.3.tar.xz
+│       ├── kget-4.14.3.tar.xz
+│       ├── kgoldrunner-4.14.3.tar.xz
+│       ├── kgpg-4.14.3.tar.xz
+│       ├── khangman-4.14.3.tar.xz
+│       ├── kig-4.14.3.tar.xz
+│       ├── kigo-4.14.3.tar.xz
+│       ├── killbots-4.14.3.tar.xz
+│       ├── kimono-4.14.3.tar.xz
+│       ├── kiriki-4.14.3.tar.xz
+│       ├── kiten-4.14.3.tar.xz
+│       ├── kjumpingcube-4.14.3.tar.xz
+│       ├── klettres-4.14.3.tar.xz
+│       ├── klickety-4.14.3.tar.xz
+│       ├── klines-4.14.3.tar.xz
+│       ├── kmag-4.14.3.tar.xz
+│       ├── kmahjongg-4.14.3.tar.xz
+│       ├── kmines-4.14.3.tar.xz
+│       ├── kmix-4.14.3.tar.xz
+│       ├── kmousetool-4.14.3.tar.xz
+│       ├── kmouth-4.14.3.tar.xz
+│       ├── kmplot-4.14.3.tar.xz
+│       ├── knavalbattle-4.14.3.tar.xz
+│       ├── knetwalk-4.14.3.tar.xz
+│       ├── kolf-4.14.3.tar.xz
+│       ├── kollision-4.14.3.tar.xz
+│       ├── kolourpaint-4.14.3.tar.xz
+│       ├── kompare-4.14.3.tar.xz
+│       ├── konquest-4.14.3.tar.xz
+│       ├── konsole-4.14.3.tar.xz
+│       ├── kopete-4.14.3.tar.xz
+│       ├── korundum-4.14.3.tar.xz
+│       ├── kpat-4.14.3.tar.xz
+│       ├── kppp-4.14.3.tar.xz
+│       ├── kqtquickcharts-4.14.3.tar.xz
+│       ├── krdc-4.14.3.tar.xz
+│       ├── kremotecontrol-4.14.3.tar.xz
+│       ├── kreversi-4.14.3.tar.xz
+│       ├── krfb-4.14.3.tar.xz
+│       ├── kross-interpreters-4.14.3.tar.xz
+│       ├── kruler-4.14.3.tar.xz
+│       ├── ksaneplugin-4.14.3.tar.xz
+│       ├── kscd-4.14.3.tar.xz
+│       ├── kshisen-4.14.3.tar.xz
+│       ├── ksirk-4.14.3.tar.xz
+│       ├── ksnakeduel-4.14.3.tar.xz
+│       ├── ksnapshot-4.14.3.tar.xz
+│       ├── kspaceduel-4.14.3.tar.xz
+│       ├── ksquares-4.14.3.tar.xz
+│       ├── kstars-4.14.3.tar.xz
+│       ├── ksudoku-4.14.3.tar.xz
+│       ├── ksystemlog-4.14.3.tar.xz
+│       ├── kteatime-4.14.3.tar.xz
+│       ├── ktimer-4.14.3.tar.xz
+│       ├── ktouch-4.14.3.tar.xz
+│       ├── ktuberling-4.14.3.tar.xz
+│       ├── kturtle-4.14.3.tar.xz
+│       ├── ktux-4.14.3.tar.xz
+│       ├── kubrick-4.14.3.tar.xz
+│       ├── kuser-4.14.3.tar.xz
+│       ├── kwalletmanager-4.14.3.tar.xz
+│       ├── kwordquiz-4.14.3.tar.xz
+│       ├── libkcddb-4.14.3.tar.xz
+│       ├── libkcompactdisc-4.14.3.tar.xz
+│       ├── libkdcraw-4.14.3.tar.xz
+│       ├── libkdeedu-4.14.3.tar.xz
+│       ├── libkdegames-4.14.3.tar.xz
+│       ├── libkexiv2-4.14.3.tar.xz
+│       ├── libkipi-4.14.3.tar.xz
+│       ├── libkmahjongg-4.14.3.tar.xz
+│       ├── libkomparediff2-4.14.3.tar.xz
+│       ├── libksane-4.14.3.tar.xz
+│       ├── lokalize-4.14.3.tar.xz
+│       ├── lskat-4.14.3.tar.xz
+│       ├── marble-4.14.3.tar.xz
+│       ├── mplayerthumbs-4.14.3.tar.xz
+│       ├── nepomuk-core-4.14.3.tar.xz
+│       ├── nepomuk-widgets-4.14.3.tar.xz
+│       ├── okteta-4.14.3.tar.xz
+│       ├── okular-4.14.3.tar.xz
+│       ├── oxygen-icons-4.14.3.tar.xz
+│       ├── pairs-4.14.3.tar.xz
+│       ├── palapeli-4.14.3.tar.xz
+│       ├── parley-4.14.3.tar.xz
+│       ├── perlkde-4.14.3.tar.xz
+│       ├── perlqt-4.14.3.tar.xz
+│       ├── picmi-4.14.3.tar.xz
+│       ├── poxml-4.14.3.tar.xz
+│       ├── print-manager-4.14.3.tar.xz
+│       ├── pykde4-4.14.3.tar.xz
+│       ├── qtruby-4.14.3.tar.xz
+│       ├── qyoto-4.14.3.tar.xz
+│       ├── rocs-4.14.3.tar.xz
+│       ├── smokegen-4.14.3.tar.xz
+│       ├── smokekde-4.14.3.tar.xz
+│       ├── smokeqt-4.14.3.tar.xz
+│       ├── step-4.14.3.tar.xz
+│       ├── superkaramba-4.14.3.tar.xz
+│       ├── svgpart-4.14.3.tar.xz
+│       ├── sweeper-4.14.3.tar.xz
+│       ├── umbrello-4.14.3.tar.xz
+│       └── zeroconf-ioslave-4.14.3.tar.xz
+├── about-distro
+│   └── 2.0.1
+│       └── src
+│           └── about-distro-2.0.1.tar.xz
+├── active
+│   └── 4.0
+│       └── src
+│           ├── bodega-client-0.2.tar.xz
+│           ├── declarative-plasmoids-4.10.5.tar.xz
+│           ├── kde-artwork-active-0.4.tar.xz
+│           ├── plasma-active-kickstart-0.2.tar.xz
+│           ├── plasma-active-maliit-0.2.tar.xz
+│           ├── plasma-mobile-0.5.tar.xz
+│           ├── plasma-mobile-config-0.4.tar.xz
+│           ├── share-like-connect-0.4.tar.xz
+│           └── startactive-0.4.tar.xz
+├── akonadi
+│   └── src
+│       ├── akonadi-0.80.0.tar.bz2
+│       ├── akonadi-0.81.0.tar.bz2
+│       ├── akonadi-0.82.0.tar.bz2
+│       ├── akonadi-1.0.0.tar.bz2
+│       ├── akonadi-1.0.80.tar.bz2
+│       ├── akonadi-1.0.81.tar.bz2
+│       ├── akonadi-1.1.0.tar.bz2
+│       ├── akonadi-1.1.1.tar.bz2
+│       ├── akonadi-1.1.2.tar.bz2
+│       ├── akonadi-1.1.85.tar.bz2
+│       ├── akonadi-1.1.90.tar.bz2
+│       ├── akonadi-1.1.95.tar.bz2
+│       ├── akonadi-1.10.0.tar.bz2
+│       ├── akonadi-1.10.1.tar.bz2
+│       ├── akonadi-1.10.2.tar.bz2
+│       ├── akonadi-1.10.3-1.tar.bz2
+│       ├── akonadi-1.10.80.tar.bz2
+│       ├── akonadi-1.11.0.tar.bz2
+│       ├── akonadi-1.11.80.tar.bz2
+│       ├── akonadi-1.11.90.tar.bz2
+│       ├── akonadi-1.12.0.tar.bz2
+│       ├── akonadi-1.12.1.tar.bz2
+│       ├── akonadi-1.12.90.tar.bz2
+│       ├── akonadi-1.12.91.tar.bz2
+│       ├── akonadi-1.13.0.tar.bz2
+│       ├── akonadi-1.2.0.tar.bz2
+│       ├── akonadi-1.2.1.tar.bz2
+│       ├── akonadi-1.2.80.tar.bz2
+│       ├── akonadi-1.2.90.tar.bz2
+│       ├── akonadi-1.3.0.tar.bz2
+│       ├── akonadi-1.3.1.tar.bz2
+│       ├── akonadi-1.3.80.tar.bz2
+│       ├── akonadi-1.3.85.tar.bz2
+│       ├── akonadi-1.3.90.tar.bz2
+│       ├── akonadi-1.4.0.tar.bz2
+│       ├── akonadi-1.4.1.tar.bz2
+│       ├── akonadi-1.4.2.tar.bz2
+│       ├── akonadi-1.4.3.tar.bz2
+│       ├── akonadi-1.4.80.tar.bz2
+│       ├── akonadi-1.4.85.tar.bz2
+│       ├── akonadi-1.4.90.tar.bz2
+│       ├── akonadi-1.4.95.tar.bz2
+│       ├── akonadi-1.5.0.tar.bz2
+│       ├── akonadi-1.5.1.tar.bz2
+│       ├── akonadi-1.5.2.tar.bz2
+│       ├── akonadi-1.5.3.tar.bz2
+│       ├── akonadi-1.5.80.tar.bz2
+│       ├── akonadi-1.6.0.tar.bz2
+│       ├── akonadi-1.6.1.tar.bz2
+│       ├── akonadi-1.6.2.tar.bz2
+│       ├── akonadi-1.6.90.tar.bz2
+│       ├── akonadi-1.7.0.tar.bz2
+│       ├── akonadi-1.7.1.tar.bz2
+│       ├── akonadi-1.7.2.tar.bz2
+│       ├── akonadi-1.7.90.tar.bz2
+│       ├── akonadi-1.7.95.tar.bz2
+│       ├── akonadi-1.8.0.tar.bz2
+│       ├── akonadi-1.8.1.tar.bz2
+│       ├── akonadi-1.8.80.tar.bz2
+│       ├── akonadi-1.9.0.tar.bz2
+│       ├── akonadi-1.9.1.tar.bz2
+│       ├── akonadi-1.9.2.tar.bz2
+│       └── akonadi-1.9.80.tar.bz2
+├── alkimia
+│   └── 5.0.0
+│       └── src
+│           └── libalkimia-5.0.0.tar.xz
+├── amarok
+│   └── 2.8.90
+│       └── src
+│           └── amarok-2.8.90.tar.xz
+├── apper
+│   └── 0.9.2
+│       └── src
+│           └── apper-0.9.2.tar.xz
+├── applications
+│   └── 16.12.3
+│       └── src
+│           ├── akonadi-16.12.3.tar.xz
+│           ├── akonadi-calendar-16.12.3.tar.xz
+│           ├── akonadi-calendar-tools-16.12.3.tar.xz
+│           ├── akonadi-contacts-16.12.3.tar.xz
+│           ├── akonadi-import-wizard-16.12.3.tar.xz
+│           ├── akonadi-mime-16.12.3.tar.xz
+│           ├── akonadi-notes-16.12.3.tar.xz
+│           ├── akonadi-search-16.12.3.tar.xz
+│           ├── akonadiconsole-16.12.3.tar.xz
+│           ├── akregator-16.12.3.tar.xz
+│           ├── analitza-16.12.3.tar.xz
+│           ├── ark-16.12.3.tar.xz
+│           ├── artikulate-16.12.3.tar.xz
+│           ├── audiocd-kio-16.12.3.tar.xz
+│           ├── baloo-widgets-16.12.3.tar.xz
+│           ├── blinken-16.12.3.tar.xz
+│           ├── blogilo-16.12.3.tar.xz
+│           ├── bomber-16.12.3.tar.xz
+│           ├── bovo-16.12.3.tar.xz
+│           ├── calendarsupport-16.12.3.tar.xz
+│           ├── cantor-16.12.3.tar.xz
+│           ├── cervisia-16.12.3.tar.xz
+│           ├── dolphin-16.12.3.tar.xz
+│           ├── dolphin-plugins-16.12.3.tar.xz
+│           ├── dragon-16.12.3.tar.xz
+│           ├── eventviews-16.12.3.tar.xz
+│           ├── ffmpegthumbs-16.12.3.tar.xz
+│           ├── filelight-16.12.3.tar.xz
+│           ├── granatier-16.12.3.tar.xz
+│           ├── grantlee-editor-16.12.3.tar.xz
+│           ├── grantleetheme-16.12.3.tar.xz
+│           ├── gwenview-16.12.3.tar.xz
+│           ├── incidenceeditor-16.12.3.tar.xz
+│           ├── jovie-16.12.3.tar.xz
+│           ├── juk-16.12.3.tar.xz
+│           ├── kaccessible-16.12.3.tar.xz
+│           ├── kaccounts-integration-16.12.3.tar.xz
+│           ├── kaccounts-providers-16.12.3.tar.xz
+│           ├── kaddressbook-16.12.3.tar.xz
+│           ├── kajongg-16.12.3.tar.xz
+│           ├── kalarm-16.12.3.tar.xz
+│           ├── kalarmcal-16.12.3.tar.xz
+│           ├── kalgebra-16.12.3.tar.xz
+│           ├── kalzium-16.12.3.tar.xz
+│           ├── kamera-16.12.3.tar.xz
+│           ├── kanagram-16.12.3.tar.xz
+│           ├── kapman-16.12.3.tar.xz
+│           ├── kapptemplate-16.12.3.tar.xz
+│           ├── kate-16.12.3.tar.xz
+│           ├── katomic-16.12.3.tar.xz
+│           ├── kblackbox-16.12.3.tar.xz
+│           ├── kblocks-16.12.3.tar.xz
+│           ├── kblog-16.12.3.tar.xz
+│           ├── kbounce-16.12.3.tar.xz
+│           ├── kbreakout-16.12.3.tar.xz
+│           ├── kbruch-16.12.3.tar.xz
+│           ├── kcachegrind-16.12.3.tar.xz
+│           ├── kcalc-16.12.3.tar.xz
+│           ├── kcalcore-16.12.3.tar.xz
+│           ├── kcalutils-16.12.3.tar.xz
+│           ├── kcharselect-16.12.3.tar.xz
+│           ├── kcolorchooser-16.12.3.tar.xz
+│           ├── kcontacts-16.12.3.tar.xz
+│           ├── kcron-16.12.3.tar.xz
+│           ├── kde-dev-scripts-16.12.3.tar.xz
+│           ├── kde-dev-utils-16.12.3.tar.xz
+│           ├── kde-l10n
+│           │   └── kde-l10n-ru-16.12.3.tar.xz
+│           ├── kde-runtime-16.12.3.tar.xz
+│           ├── kdebugsettings-16.12.3.tar.xz
+│           ├── kdeedu-data-16.12.3.tar.xz
+│           ├── kdegraphics-mobipocket-16.12.3.tar.xz
+│           ├── kdegraphics-thumbnailers-16.12.3.tar.xz
+│           ├── kdelibs-4.14.30.tar.xz
+│           ├── kdenetwork-filesharing-16.12.3.tar.xz
+│           ├── kdenlive-16.12.3.tar.xz
+│           ├── kdepim-addons-16.12.3.tar.xz
+│           ├── kdepim-apps-libs-16.12.3.tar.xz
+│           ├── kdepim-runtime-16.12.3.tar.xz
+│           ├── kdesdk-kioslaves-16.12.3.tar.xz
+│           ├── kdesdk-thumbnailers-16.12.3.tar.xz
+│           ├── kdf-16.12.3.tar.xz
+│           ├── kdialog-16.12.3.tar.xz
+│           ├── kdiamond-16.12.3.tar.xz
+│           ├── keditbookmarks-16.12.3.tar.xz
+│           ├── kfilereplace-16.12.3.tar.xz
+│           ├── kfind-16.12.3.tar.xz
+│           ├── kfloppy-16.12.3.tar.xz
+│           ├── kfourinline-16.12.3.tar.xz
+│           ├── kgeography-16.12.3.tar.xz
+│           ├── kget-16.12.3.tar.xz
+│           ├── kgoldrunner-16.12.3.tar.xz
+│           ├── kgpg-16.12.3.tar.xz
+│           ├── khangman-16.12.3.tar.xz
+│           ├── khelpcenter-16.12.3.tar.xz
+│           ├── kholidays-16.12.3.tar.xz
+│           ├── kholidays-16.12.3a.tar.xz
+│           ├── kidentitymanagement-16.12.3.tar.xz
+│           ├── kig-16.12.3.tar.xz
+│           ├── kigo-16.12.3.tar.xz
+│           ├── killbots-16.12.3.tar.xz
+│           ├── kimagemapeditor-16.12.3.tar.xz
+│           ├── kimap-16.12.3.tar.xz
+│           ├── kio-extras-16.12.3.tar.xz
+│           ├── kiriki-16.12.3.tar.xz
+│           ├── kiten-16.12.3.tar.xz
+│           ├── kjumpingcube-16.12.3.tar.xz
+│           ├── kldap-16.12.3.tar.xz
+│           ├── kleopatra-16.12.3.tar.xz
+│           ├── klettres-16.12.3.tar.xz
+│           ├── klickety-16.12.3.tar.xz
+│           ├── klines-16.12.3.tar.xz
+│           ├── klinkstatus-16.12.3.tar.xz
+│           ├── kmag-16.12.3.tar.xz
+│           ├── kmahjongg-16.12.3.tar.xz
+│           ├── kmail-16.12.3.tar.xz
+│           ├── kmail-account-wizard-16.12.3.tar.xz
+│           ├── kmailtransport-16.12.3.tar.xz
+│           ├── kmbox-16.12.3.tar.xz
+│           ├── kmime-16.12.3.tar.xz
+│           ├── kmines-16.12.3.tar.xz
+│           ├── kmix-16.12.3.tar.xz
+│           ├── kmousetool-16.12.3.tar.xz
+│           ├── kmouth-16.12.3.tar.xz
+│           ├── kmplot-16.12.3.tar.xz
+│           ├── knavalbattle-16.12.3.tar.xz
+│           ├── knetwalk-16.12.3.tar.xz
+│           ├── knotes-16.12.3.tar.xz
+│           ├── kolf-16.12.3.tar.xz
+│           ├── kollision-16.12.3.tar.xz
+│           ├── kolourpaint-16.12.3.tar.xz
+│           ├── kommander-16.12.3.tar.xz
+│           ├── kompare-16.12.3.tar.xz
+│           ├── konqueror-16.12.3.tar.xz
+│           ├── konquest-16.12.3.tar.xz
+│           ├── konsole-16.12.3.tar.xz
+│           ├── kontact-16.12.3.tar.xz
+│           ├── kontactinterface-16.12.3.tar.xz
+│           ├── kopete-16.12.3.tar.xz
+│           ├── korganizer-16.12.3.tar.xz
+│           ├── kpat-16.12.3.tar.xz
+│           ├── kpimtextedit-16.12.3.tar.xz
+│           ├── kppp-16.12.3.tar.xz
+│           ├── kqtquickcharts-16.12.3.tar.xz
+│           ├── krdc-16.12.3.tar.xz
+│           ├── kremotecontrol-16.12.3.tar.xz
+│           ├── kreversi-16.12.3.tar.xz
+│           ├── krfb-16.12.3.tar.xz
+│           ├── kross-interpreters-16.12.3.tar.xz
+│           ├── kruler-16.12.3.tar.xz
+│           ├── ksaneplugin-16.12.3.tar.xz
+│           ├── kscd-16.12.3.tar.xz
+│           ├── kshisen-16.12.3.tar.xz
+│           ├── ksirk-16.12.3.tar.xz
+│           ├── ksnakeduel-16.12.3.tar.xz
+│           ├── kspaceduel-16.12.3.tar.xz
+│           ├── ksquares-16.12.3.tar.xz
+│           ├── kstars-16.12.3.tar.xz
+│           ├── ksudoku-16.12.3.tar.xz
+│           ├── ksystemlog-16.12.3.tar.xz
+│           ├── kteatime-16.12.3.tar.xz
+│           ├── ktimer-16.12.3.tar.xz
+│           ├── ktnef-16.12.3.tar.xz
+│           ├── ktouch-16.12.3.tar.xz
+│           ├── ktp-accounts-kcm-16.12.3.tar.xz
+│           ├── ktp-approver-16.12.3.tar.xz
+│           ├── ktp-auth-handler-16.12.3.tar.xz
+│           ├── ktp-call-ui-16.12.3.tar.xz
+│           ├── ktp-common-internals-16.12.3.tar.xz
+│           ├── ktp-contact-list-16.12.3.tar.xz
+│           ├── ktp-contact-runner-16.12.3.tar.xz
+│           ├── ktp-desktop-applets-16.12.3.tar.xz
+│           ├── ktp-filetransfer-handler-16.12.3.tar.xz
+│           ├── ktp-kded-module-16.12.3.tar.xz
+│           ├── ktp-send-file-16.12.3.tar.xz
+│           ├── ktp-text-ui-16.12.3.tar.xz
+│           ├── ktuberling-16.12.3.tar.xz
+│           ├── kturtle-16.12.3.tar.xz
+│           ├── kubrick-16.12.3.tar.xz
+│           ├── kwalletmanager-16.12.3.tar.xz
+│           ├── kwave-16.12.3.tar.xz
+│           ├── kwordquiz-16.12.3.tar.xz
+│           ├── libgravatar-16.12.3.tar.xz
+│           ├── libkcddb-16.12.3.tar.xz
+│           ├── libkcompactdisc-16.12.3.tar.xz
+│           ├── libkdcraw-16.12.3.tar.xz
+│           ├── libkdegames-16.12.3.tar.xz
+│           ├── libkdepim-16.12.3.tar.xz
+│           ├── libkeduvocdocument-16.12.3.tar.xz
+│           ├── libkexiv2-16.12.3.tar.xz
+│           ├── libkface-16.12.3.tar.xz
+│           ├── libkgeomap-16.12.3.tar.xz
+│           ├── libkipi-16.12.3.tar.xz
+│           ├── libkleo-16.12.3.tar.xz
+│           ├── libkmahjongg-16.12.3.tar.xz
+│           ├── libkomparediff2-16.12.3.tar.xz
+│           ├── libksane-16.12.3.tar.xz
+│           ├── libksieve-16.12.3.tar.xz
+│           ├── lokalize-16.12.3.tar.xz
+│           ├── lskat-16.12.3.tar.xz
+│           ├── mailcommon-16.12.3.tar.xz
+│           ├── mailimporter-16.12.3.tar.xz
+│           ├── marble-16.12.3.tar.xz
+│           ├── mbox-importer-16.12.3.tar.xz
+│           ├── messagelib-16.12.3.tar.xz
+│           ├── minuet-16.12.3.tar.xz
+│           ├── okteta-16.12.3.tar.xz
+│           ├── okular-16.12.3.tar.xz
+│           ├── palapeli-16.12.3.tar.xz
+│           ├── parley-16.12.3.tar.xz
+│           ├── picmi-16.12.3.tar.xz
+│           ├── pim-data-exporter-16.12.3.tar.xz
+│           ├── pim-sieve-editor-16.12.3.tar.xz
+│           ├── pim-storage-service-manager-16.12.3.tar.xz
+│           ├── pimcommon-16.12.3.tar.xz
+│           ├── poxml-16.12.3.tar.xz
+│           ├── print-manager-16.12.3.tar.xz
+│           ├── rocs-16.12.3.tar.xz
+│           ├── spectacle-16.12.3.tar.xz
+│           ├── step-16.12.3.tar.xz
+│           ├── svgpart-16.12.3.tar.xz
+│           ├── sweeper-16.12.3.tar.xz
+│           ├── syndication-16.12.3.tar.xz
+│           ├── umbrello-16.12.3.tar.xz
+│           └── zeroconf-ioslave-16.12.3.tar.xz
+├── apps
+│   └── KDE4.x
+│       ├── accessibility
+│       ├── admin
+│       │   ├── PolicyKit-kde-0.9.0.tar.bz2
+│       │   ├── PolicyKit-kde-0.9.2.tar.bz2
+│       │   ├── polkit-kde-1-0.95.1.tar.bz2
+│       │   ├── polkit-kde-agent-1-0.99.0.tar.bz2
+│       │   ├── polkit-qt-0.9.0.tar.bz2
+│       │   ├── polkit-qt-0.9.1.tar.bz2
+│       │   ├── polkit-qt-0.9.2.tar.bz2
+│       │   ├── polkit-qt-0.9.3.tar.bz2
+│       │   ├── polkit-qt-0.9.4.tar.bz2
+│       │   ├── polkit-qt-1-0.103.0.tar.bz2
+│       │   ├── polkit-qt-1-0.112.0.tar.bz2
+│       │   ├── polkit-qt-1-0.95.1.tar.bz2
+│       │   ├── polkit-qt-1-0.96.1.tar.bz2
+│       │   └── polkit-qt-1-0.99.0.tar.bz2
+│       ├── comm
+│       ├── database
+│       ├── education
+│       ├── games
+│       ├── graphics
+│       ├── ide
+│       ├── math
+│       ├── multimedia
+│       ├── network
+│       ├── office
+│       ├── scientific
+│       ├── themes
+│       ├── toys
+│       └── utils
+│           ├── ksnapshot-2015.12.tar.xz
+│           ├── powerdevil-1.2.0-kde4.1.1.tar.bz2
+│           ├── powerdevil-1.3.0-kde4.1.2.tar.bz2
+│           ├── powerdevil-1.4.0-kde4.1.2.tar.bz2
+│           ├── powerdevil-1.4.1-kde4.1.3.tar.bz2
+│           └── powerdevil-1.4.2-kde4.1.3.tar.bz2
+├── attica
+│   ├── attica-0.1.0.tar.bz2
+│   ├── attica-0.1.1.tar.bz2
+│   ├── attica-0.1.2.tar.bz2
+│   ├── attica-0.1.3.tar.bz2
+│   ├── attica-0.1.4.tar.bz2
+│   ├── attica-0.2.0.tar.bz2
+│   ├── attica-0.2.9.tar.bz2
+│   ├── attica-0.3.0.tar.bz2
+│   ├── attica-0.4.0.tar.bz2
+│   ├── attica-0.4.1.tar.bz2
+│   └── attica-0.4.2.tar.bz2
+├── automoc4
+│   └── 0.9.88
+│       └── automoc4-0.9.88.tar.bz2
+├── bluedevil
+│   └── 2.1.1
+│       └── src
+│           └── bluedevil-2.1.1.tar.xz
+├── cagibi
+│   ├── cagibi-0.1.0.tar.bz2
+│   ├── cagibi-0.1.1.tar.bz2
+│   └── cagibi-0.2.0.tar.bz2
+├── calligra
+│   └── 3.0.0.1
+│       └── calligra-3.0.0.1.tar.xz
+├── calligra-3.0.0
+│   └── calligra-3.0.0.tar.gz
+├── calligra-latest
+│   └── calligra-3.0.0.1.tar.xz
+├── choqok
+│   └── 1.6
+│       └── src
+│           └── choqok-1.6.0.tar.xz
+├── clazy
+│   └── 1.1
+│       ├── clazy_v1.1-msvc2015.zip
+│       └── clazy_v1.1-src.zip
+├── colibri
+│   └── colibri-0.3.0.tar.bz2
+├── colord-kde
+│   └── 0.5.0
+│       └── src
+│           └── colord-kde-0.5.0.tar.xz
+├── digikam
+│   ├── digikam-5.1.0.tar.xz
+│   ├── digikam-5.2.0.tar.xz
+│   ├── digikam-5.3.0.tar.xz
+│   ├── digikam-5.4.0.tar.xz
+│   └── digikam-5.5.0.tar.xz
+├── extragear
+│   ├── guidance-power-manager-4.4.0.tar.bz2
+│   ├── kcoloredit-2.0.0-kde4.4.0.tar.bz2
+│   ├── kdiff3-0.9.95-kde4.4.0.tar.bz2
+│   ├── kfax-3.3.6-kde4.4.0.tar.bz2
+│   ├── kgrab-0.1.1-kde4.4.0.tar.bz2
+│   ├── kgraphviewer-2.0.2-kde4.4.0.tar.bz2
+│   ├── kiconedit-4.4.0.tar.bz2
+│   ├── kio-gopher-0.1.4.tar.bz2
+│   ├── kio_gopher-0.1.3-kde4.4.0.tar.bz2
+│   ├── kmldonkey-2.0.2-kde4.4.0.tar.bz2
+│   ├── konq-plugins-4.4.0.tar.bz2
+│   ├── kopete-cryptography-1.3.0-kde4.4.0.tar.bz2
+│   ├── kphotoalbum-4.1.1-kde4.4.0.tar.bz2
+│   ├── ktouchpadenabler-0.1.0.tar.bz2
+│   ├── ktouchpadenabler-0.1.1.tar.bz2
+│   ├── kuickshow-0.9.1-kde4.4.0.tar.bz2
+│   └── skanlite-0.4-kde4.4.0.tar.bz2
+├── frameworks
+│   └── 5.32
+│       ├── attica-5.32.0.tar.xz
+│       ├── baloo-5.32.0.tar.xz
+│       ├── bluez-qt-5.32.0.tar.xz
+│       ├── breeze-icons-5.32.0.tar.xz
+│       ├── extra-cmake-modules-5.32.0.tar.xz
+│       ├── frameworkintegration-5.32.0.tar.xz
+│       ├── kactivities-5.32.0.tar.xz
+│       ├── kactivities-stats-5.32.0.tar.xz
+│       ├── kapidox-5.32.0.tar.xz
+│       ├── karchive-5.32.0.tar.xz
+│       ├── kauth-5.32.0.tar.xz
+│       ├── kbookmarks-5.32.0.tar.xz
+│       ├── kcmutils-5.32.0.tar.xz
+│       ├── kcodecs-5.32.0.tar.xz
+│       ├── kcompletion-5.32.0.tar.xz
+│       ├── kconfig-5.32.0.tar.xz
+│       ├── kconfigwidgets-5.32.0.tar.xz
+│       ├── kcoreaddons-5.32.0.tar.xz
+│       ├── kcrash-5.32.0.tar.xz
+│       ├── kdbusaddons-5.32.0.tar.xz
+│       ├── kdeclarative-5.32.0.tar.xz
+│       ├── kded-5.32.0.tar.xz
+│       ├── kdesu-5.32.0.tar.xz
+│       ├── kdewebkit-5.32.0.tar.xz
+│       ├── kdnssd-5.32.0.tar.xz
+│       ├── kdoctools-5.32.0.tar.xz
+│       ├── kemoticons-5.32.0.tar.xz
+│       ├── kfilemetadata-5.32.0.tar.xz
+│       ├── kglobalaccel-5.32.0.tar.xz
+│       ├── kguiaddons-5.32.0.tar.xz
+│       ├── ki18n-5.32.0.tar.xz
+│       ├── kiconthemes-5.32.0.tar.xz
+│       ├── kidletime-5.32.0.tar.xz
+│       ├── kimageformats-5.32.0.tar.xz
+│       ├── kinit-5.32.0.tar.xz
+│       ├── kio-5.32.0.tar.xz
+│       ├── kitemmodels-5.32.0.tar.xz
+│       ├── kitemviews-5.32.0.tar.xz
+│       ├── kjobwidgets-5.32.0.tar.xz
+│       ├── knewstuff-5.32.0.tar.xz
+│       ├── knotifications-5.32.0.tar.xz
+│       ├── knotifyconfig-5.32.0.tar.xz
+│       ├── kpackage-5.32.0.tar.xz
+│       ├── kparts-5.32.0.tar.xz
+│       ├── kpeople-5.32.0.tar.xz
+│       ├── kplotting-5.32.0.tar.xz
+│       ├── kpty-5.32.0.tar.xz
+│       ├── krunner-5.32.0.tar.xz
+│       ├── kservice-5.32.0.tar.xz
+│       ├── ktexteditor-5.32.0.tar.xz
+│       ├── ktextwidgets-5.32.0.tar.xz
+│       ├── kunitconversion-5.32.0.tar.xz
+│       ├── kwallet-5.32.0.tar.xz
+│       ├── kwayland-5.32.0.tar.xz
+│       ├── kwidgetsaddons-5.32.0.tar.xz
+│       ├── kwindowsystem-5.32.0.tar.xz
+│       ├── kxmlgui-5.32.0.tar.xz
+│       ├── kxmlrpcclient-5.32.0.tar.xz
+│       ├── modemmanager-qt-5.32.0.tar.xz
+│       ├── networkmanager-qt-5.32.0.tar.xz
+│       ├── oxygen-icons5-5.32.0.tar.xz
+│       ├── plasma-framework-5.32.0.tar.xz
+│       ├── portingAids
+│       │   ├── kdelibs4support-5.32.0.tar.xz
+│       │   ├── khtml-5.32.0.tar.xz
+│       │   ├── kjs-5.32.0.tar.xz
+│       │   ├── kjsembed-5.32.0.tar.xz
+│       │   ├── kmediaplayer-5.32.0.tar.xz
+│       │   └── kross-5.32.0.tar.xz
+│       ├── prison-5.32.0.tar.xz
+│       ├── solid-5.32.0.tar.xz
+│       ├── sonnet-5.32.0.tar.xz
+│       ├── syntax-highlighting-5.32.0.tar.xz
+│       └── threadweaver-5.32.0.tar.xz
+├── heaptrack
+│   └── 1.0.0
+│       └── src
+│           └── heaptrack-1.0.0.tar.xz
+├── homerun
+│   └── src
+│       ├── homerun-1.0.0.tar.bz2
+│       ├── homerun-1.1.0.tar.xz
+│       ├── homerun-1.2.0.tar.xz
+│       ├── homerun-1.2.1.tar.xz
+│       ├── homerun-1.2.2.tar.xz
+│       ├── homerun-1.2.3.tar.xz
+│       ├── homerun-1.2.4.tar.xz
+│       └── homerun-1.2.5.tar.xz
+├── k3b
+│   ├── k3b-2.0.3.tar.xz
+│   └── k3b-2.0.3a.tar.xz
+├── kactivities
+│   ├── kactivities-workspace-5.5.0.tar.xz
+│   └── kactivitymanagerd-5.5.0.tar.xz
+├── kaffeine
+│   └── 2.0.9
+│       └── src
+│           ├── kaffeine-2.0.9-1.tar.xz
+│           └── kaffeine-2.0.9.tar.xz
+├── kamoso
+│   └── 3.2
+│       └── src
+│           ├── kamoso-3.2.1.tar.xz
+│           ├── kamoso-3.2.2.tar.xz
+│           ├── kamoso-3.2.3.tar.xz
+│           ├── kamoso-3.2.4.tar.xz
+│           └── kamoso-3.2.tar.xz
+├── kdb
+│   └── src
+│       ├── kdb-3.0.0.tar.xz
+│       ├── kdb-3.0.1.1.tar.xz
+│       └── kdb-3.0.1.tar.xz
+├── kde-gtk-config
+│   └── 2.2.1
+│       └── src
+│           └── kde-gtk-config-2.2.1.tar.xz
+├── kde-telepathy
+│   └── 0.9.0
+│       └── src
+│           ├── ktp-accounts-kcm-0.9.0.tar.bz2
+│           ├── ktp-approver-0.9.0.tar.bz2
+│           ├── ktp-auth-handler-0.9.0.tar.bz2
+│           ├── ktp-call-ui-0.9.0.tar.bz2
+│           ├── ktp-common-internals-0.9.0.tar.bz2
+│           ├── ktp-contact-list-0.9.0.tar.bz2
+│           ├── ktp-contact-runner-0.9.0.tar.bz2
+│           ├── ktp-desktop-applets-0.9.0.tar.bz2
+│           ├── ktp-filetransfer-handler-0.9.0.tar.bz2
+│           ├── ktp-kded-integration-module-0.9.0.tar.bz2
+│           ├── ktp-send-file-0.9.0.tar.bz2
+│           └── ktp-text-ui-0.9.0.tar.bz2
+├── kde-workspace_translations
+│   └── 4.11.22-a
+│       └── kde-l10n
+│           └── kde-workspace-l10n-ru-4.11.22.tar.xz
+├── kdeconnect
+│   └── 1.0.3
+│       └── src
+│           └── kdeconnect-kde-1.0.3.tar.xz
+├── kdenlive
+│   └── 0.9.10
+│       └── src
+│           └── kdenlive-0.9.10.tar.bz2
+├── kdepim-4.4.11.1
+│   └── src
+│       ├── kdepim-4.4.11.1.tar.bz2
+│       └── kdepim-runtime-4.4.11.1.tar.bz2
+├── kdepim-4.6.1
+│   └── src
+│       ├── kdepim-4.6.1.tar.bz2
+│       └── kdepim-runtime-4.6.1.tar.bz2
+├── kdesvn
+│   └── 2.0.0
+│       └── kdesvn-2.0.0.tar.xz
+├── kdevelop
+│   └── 5.1.0
+│       └── src
+│           ├── kdev-php-5.1.0.tar.xz
+│           ├── kdev-python-5.1.0.tar.xz
+│           ├── kdevelop-5.1.0.tar.xz
+│           └── kdevplatform-5.1.0.tar.xz
+├── kdevelop-pg-qt
+│   └── 2.0.0
+│       └── src
+│           └── kdevelop-pg-qt-2.0.tar.xz
+├── kdiagram
+│   └── 2.6.0
+│       └── src
+│           └── kdiagram-2.6.0.tar.xz
+├── kexi
+│   └── src
+│       ├── kexi-3.0.0.tar.xz
+│       ├── kexi-3.0.1.1.tar.xz
+│       └── kexi-3.0.1.tar.xz
+├── kgraphviewer
+│   └── 2.2.0
+│       └── src
+│           └── kgraphviewer-2.2.0.tar.xz
+├── kio-gdrive
+│   └── 1.1.1
+│       └── src
+│           └── kio-gdrive-1.1.1.tar.xz
+├── kio-upnp-ms
+│   └── 0.8.0
+│       └── src
+│           └── kio-upnp-ms-0.8.0.tar.gz
+├── kipi-plugins
+│   ├── kipi-plugins-0.1.0.tar.bz2
+│   ├── kipi-plugins-0.1.1.tar.bz2
+│   ├── kipi-plugins-0.1.2.tar.bz2
+│   ├── kipi-plugins-0.1.3.tar.bz2
+│   ├── kipi-plugins-0.1.4.tar.bz2
+│   ├── kipi-plugins-0.1.5.tar.bz2
+│   ├── kipi-plugins-0.1.6.tar.bz2
+│   ├── kipi-plugins-0.1.7.tar.bz2
+│   ├── kipi-plugins-0.2.0.tar.bz2
+│   ├── kipi-plugins-0.3.0.tar.bz2
+│   ├── kipi-plugins-0.4.0.tar.bz2
+│   ├── kipi-plugins-0.5.0.tar.bz2
+│   ├── kipi-plugins-0.6.0.tar.bz2
+│   ├── kipi-plugins-0.7.0.tar.bz2
+│   ├── kipi-plugins-0.8.0.tar.bz2
+│   ├── kipi-plugins-0.9.0.tar.bz2
+│   ├── kipi-plugins-1.0.0.tar.bz2
+│   ├── kipi-plugins-1.1.0.tar.bz2
+│   ├── kipi-plugins-1.2.0.tar.bz2
+│   ├── kipi-plugins-1.3.0.tar.bz2
+│   ├── kipi-plugins-1.4.0.tar.bz2
+│   ├── kipi-plugins-1.5.0.tar.bz2
+│   ├── kipi-plugins-1.6.0.tar.bz2
+│   ├── kipi-plugins-1.7.0.tar.bz2
+│   ├── kipi-plugins-1.8.0.tar.bz2
+│   └── kipi-plugins-1.9.0.tar.bz2
+├── kirigami
+│   ├── kirigami-1.0.0.tar.xz
+│   ├── kirigami-1.0.1.tar.xz
+│   ├── kirigami-1.0.2.tar.xz
+│   ├── kirigami-1.1.0.tar.xz
+│   └── kirigami2-2.0.0.tar.xz
+├── kjots
+│   └── 5.0.2
+│       └── kjots-5.0.2.tar.xz
+├── kmplayer
+│   └── 0.12
+│       ├── kmplayer-0.12.0a.tar.bz2
+│       └── kmplayer-0.12.0b.tar.bz2
+├── kmymoney
+│   └── 4.8.0
+│       └── src
+│           └── kmymoney-4.8.0.tar.xz
+├── konversation
+│   └── 1.6.2
+│       └── src
+│           └── konversation-1.6.2.tar.xz
+├── kphotoalbum
+│   └── 5.2
+│       └── kphotoalbum-5.2.tar.xz
+├── kplayer
+│   └── 0.7.2
+│       └── src
+│           └── kplayer-0.7.2.tar.xz
+├── kpmcore
+│   └── 3.0.3
+│       └── src
+│           └── kpmcore-3.0.3.tar.xz
+├── kproperty
+│   └── src
+│       ├── kproperty-3.0.0.tar.xz
+│       └── kproperty-3.0.1.tar.xz
+├── krecipes
+│   └── 2.1.0
+│       └── src
+│           └── krecipes-2.1.0.tar.xz
+├── kreport
+│   └── src
+│       ├── kreport-3.0.0.tar.xz
+│       └── kreport-3.0.1.tar.xz
+├── krita
+│   └── 3.1.2
+│       └── krita-3.1.2.1.tar.gz
+├── kronometer
+│   └── 2.1.4
+│       └── src
+│           └── kronometer-2.1.4.tar.xz
+├── krusader
+│   └── 2.5.0
+│       └── krusader-2.5.0.tar.xz
+├── kscreen
+│   └── 1.0.2.1
+│       └── src
+│           └── kscreen-1.0.2.1.tar.xz
+├── kscreengenie
+│   └── 2.0
+│       └── src
+│           ├── kscreengenie-2.0.0.tar.xz
+│           └── kscreengenie-2.0.1.tar.xz
+├── kte-collaborative
+│   └── 0.2.0
+│       └── src
+│           └── kte-collaborative-v0.2.0.tar.xz
+├── ktorrent
+│   └── 5.0
+│       ├── ktorrent-5.0.1.tar.xz
+│       ├── ktorrent-5.0.tar.xz
+│       ├── libktorrent-2.0.1.tar.xz
+│       └── libktorrent-2.0.tar.xz
+├── kxstitch
+│   └── 2.0.0
+│       └── src
+│           └── kxstitch-2.0.0.tar.xz
+├── labplot
+│   └── 2.3.0
+│       ├── labplot-2.3.0-kf5.tar.xz
+│       └── labplot-2.3.0.tar.xz
+├── libbluedevil
+│   └── 2.1
+│       └── src
+│           └── libbluedevil-2.1.tar.xz
+├── libdebconf-kde
+│   └── 1.0.2
+│       └── src
+│           └── libdebconf-kde-1.0.2.tar.xz
+├── libkfbapi
+│   └── 1.0
+│       └── src
+│           └── libkfbapi-1.0.tar.bz2
+├── libkgapi
+│   └── 5.3.1
+│       └── src
+│           └── libkgapi-5.3.1.tar.xz
+├── libkgoogle
+│   └── 0.3.2
+│       └── libkgoogle-0.3.2.tar.bz2
+├── libkoralle
+│   └── 0.1.0
+│       └── src
+│           └── libkoralle0-0.1.0.tar.bz2
+├── libkscreen
+│   └── 1.0.5
+│       └── src
+│           └── libkscreen-1.0.5.tar.xz
+├── libkvkontakte
+│   └── 4.12.0
+│       └── src
+│           └── libkvkontakte-4.12.0.tar.xz
+├── libqaccessibilityclient
+│   └── libqaccessibilityclient-0.1.1.tar.bz2
+├── libqapt
+│   └── 3.0.2
+│       └── src
+│           └── libqapt-3.0.2.tar.xz
+├── libqinfinity
+│   └── 0.5.2
+│       └── src
+│           └── libqinfinity-v0.5.2.tar.xz
+├── libqzeitgeist
+│   └── 0.8.0
+│       └── src
+│           └── libqzeitgeist-0.8.0.tar.bz2
+├── mangonel
+│   ├── mangonel-1.0.tar.bz2
+│   └── mangonel-1.1.tar.xz
+├── massif-visualizer
+│   └── 0.4.0
+│       └── src
+│           └── massif-visualizer-0.4.0.tar.xz
+├── muon
+│   └── 5.6.0
+│       └── src
+│           └── muon-5.6.0.tar.xz
+├── oxygen-gtk
+│   └── 1.1.6
+│       └── src
+│           └── oxygen-gtk-1.1.6.tar.bz2
+├── oxygen-gtk2
+│   └── 1.4.6
+│       └── src
+│           └── oxygen-gtk2-1.4.6.tar.bz2
+├── oxygen-gtk3
+│   └── 1.4.1
+│       └── src
+│           └── oxygen-gtk3-1.4.1.tar.bz2
+├── partitionmanager
+│   └── 3.0.1
+│       └── src
+│           └── partitionmanager-3.0.1.tar.xz
+├── peruse
+│   ├── peruse-1.0.tar.xz
+│   ├── peruse-1.1.tar.xz
+│   └── peruse-1.2.tar.xz
+├── phonon
+│   └── 4.9.1
+│       └── phonon-4.9.1.tar.xz
+├── phonon-backend-vlc
+│   └── 0.3.1
+│       └── src
+│           └── phonon-backend-vlc-0.3.1.tar.bz2
+├── plasma
+│   └── 5.9.4
+│       ├── bluedevil-5.9.4.tar.xz
+│       ├── breeze-5.9.4.tar.xz
+│       ├── breeze-grub-5.9.4.tar.xz
+│       ├── breeze-gtk-5.9.4.tar.xz
+│       ├── breeze-plymouth-5.9.4.tar.xz
+│       ├── discover-5.9.4.tar.xz
+│       ├── kactivitymanagerd-5.9.4.tar.xz
+│       ├── kde-cli-tools-5.9.4.tar.xz
+│       ├── kde-gtk-config-5.9.4.tar.xz
+│       ├── kdecoration-5.9.4.tar.xz
+│       ├── kdeplasma-addons-5.9.4.tar.xz
+│       ├── kgamma5-5.9.4.tar.xz
+│       ├── khotkeys-5.9.4.tar.xz
+│       ├── kinfocenter-5.9.4.tar.xz
+│       ├── kmenuedit-5.9.4.tar.xz
+│       ├── kscreen-5.9.4.tar.xz
+│       ├── kscreenlocker-5.9.4.tar.xz
+│       ├── ksshaskpass-5.9.4.tar.xz
+│       ├── ksysguard-5.9.4.tar.xz
+│       ├── kwallet-pam-5.9.4.tar.xz
+│       ├── kwayland-integration-5.9.4.tar.xz
+│       ├── kwin-5.9.4.tar.xz
+│       ├── kwrited-5.9.4.tar.xz
+│       ├── libkscreen-5.9.4.tar.xz
+│       ├── libksysguard-5.9.4.tar.xz
+│       ├── milou-5.9.4.tar.xz
+│       ├── oxygen-5.9.4.tar.xz
+│       ├── plasma-desktop-5.9.4.tar.xz
+│       ├── plasma-integration-5.9.4.tar.xz
+│       ├── plasma-nm-5.9.4.tar.xz
+│       ├── plasma-pa-5.9.4.tar.xz
+│       ├── plasma-sdk-5.9.4.tar.xz
+│       ├── plasma-tests-5.9.4.tar.xz
+│       ├── plasma-workspace-5.9.4.tar.xz
+│       ├── plasma-workspace-wallpapers-5.9.4.tar.xz
+│       ├── polkit-kde-agent-1-5.9.4.tar.xz
+│       ├── powerdevil-5.9.4.tar.xz
+│       ├── sddm-kcm-5.9.4.tar.xz
+│       ├── systemsettings-5.9.4.tar.xz
+│       └── user-manager-5.9.4.tar.xz
+├── plasma-mediacenter
+│   └── 1.3.0
+│       └── src
+│           └── plasma-mediacenter-1.3.0.tar.bz2
+├── plasma-nm
+│   ├── plasma-nm-0.9.3.4-1.tar.xz
+│   ├── plasma-nm-0.9.3.4.tar.xz
+│   ├── plasma-nm-0.9.3.5.tar.xz
+│   └── plasma-nm-0.9.3.6.tar.xz
+├── plasmate
+│   └── 1.0
+│       └── src
+│           └── plasmate-1.0.tar.gz
+├── print-manager
+│   └── 0.2.0
+│       └── src
+│           └── print-manager-0.2.0.tar.bz2
+├── prison
+│   └── 1.1.1
+│       └── src
+│           └── prison-1.1.1.tar.xz
+├── purpose
+│   ├── purpose-1.0.tar.xz
+│   └── purpose-1.1.tar.xz
+├── qca
+│   └── 2.1.3
+│       └── src
+│           └── qca-2.1.3.tar.xz
+├── qca-qt5
+│   └── 2.1.0.3
+│       └── src
+│           └── qca-qt5-2.1.0.3.tar.xz
+├── qimageblitz
+│   └── qimageblitz-0.0.6.tar.bz2
+├── qt-at-spi
+│   └── 0.4.0
+│       └── src
+│           └── qt-at-spi-0.4.0.tar.bz2
+├── qtwebkit-2.3
+│   └── 2.3.4
+│       └── src
+│           └── qtwebkit-2.3.4.tar.gz
+├── rkward
+│   └── 0.6.5
+│       └── src
+│           └── rkward-0.6.5.tar.gz
+├── rsibreak
+│   └── 0.12
+│       ├── rsibreak-0.12.1.tar.xz
+│       ├── rsibreak-0.12.2.tar.xz
+│       ├── rsibreak-0.12.3.tar.xz
+│       ├── rsibreak-0.12.4.tar.xz
+│       ├── rsibreak-0.12.5.tar.xz
+│       ├── rsibreak-0.12.6.tar.xz
+│       └── rsibreak-0.12.tar.xz
+├── sflphone
+│   └── 1.4.0
+│       └── src
+│           └── sflphone-kde-1.4.0.tar.xz
+├── simon
+│   └── 0.4.1
+│       └── src
+│           └── simon-0.4.1.tar.bz2
+├── skanlite
+│   └── 2.0
+│       ├── skanlite-2.0.1.tar.xz
+│       └── skanlite-2.0.tar.xz
+├── skrooge
+│   ├── 1.7.1
+│   │   └── src
+│   │       └── skrooge-1.7.1.tar.bz2
+│   ├── 1.7.4
+│   │   └── src
+│   │       └── skrooge-1.7.4.tar.bz2
+│   ├── skrooge-1.10.0.tar.bz2
+│   ├── skrooge-1.11.0.tar.bz2
+│   ├── skrooge-1.12.0.tar.bz2
+│   ├── skrooge-1.12.5.tar.xz
+│   ├── skrooge-1.6.0.tar.bz2
+│   ├── skrooge-1.7.3.tar.bz2
+│   ├── skrooge-1.7.5.tar.bz2
+│   ├── skrooge-1.7.7.tar.bz2
+│   ├── skrooge-1.7.8.tar.bz2
+│   ├── skrooge-1.8.0.tar.bz2
+│   ├── skrooge-1.9.0.tar.bz2
+│   ├── skrooge-2.0.0.tar.xz
+│   ├── skrooge-2.1.0.tar.xz
+│   ├── skrooge-2.1.1.tar.xz
+│   ├── skrooge-2.2.0.tar.xz
+│   ├── skrooge-2.3.0.tar.xz
+│   ├── skrooge-2.4.0.tar.xz
+│   ├── skrooge-2.5.0.tar.xz
+│   ├── skrooge-2.6.0.tar.xz
+│   └── skrooge-2.7.0.tar.xz
+├── snorenotify
+│   └── 0.7.0
+│       └── src
+│           └── snorenotify-0.7.0.tar.xz
+├── snoretoast
+│   └── 0.5.2
+│       └── src
+│           └── snoretoast-0.5.2.tar.xz
+├── symboleditor
+│   └── 2.0.0
+│       └── src
+│           └── SymbolEditor-2.0.0.tar.bz2
+├── systemd-kcm
+│   ├── systemd-kcm-0.7.0.tar.xz
+│   ├── systemd-kcm-1.1.0.tar.xz
+│   ├── systemd-kcm-1.2.0.tar.xz
+│   └── systemd-kcm-1.2.1.tar.xz
+├── taglib-extras
+│   └── 1.0.1
+│       └── src
+│           └── taglib-extras-1.0.1.tar.gz
+├── telepathy-logger-qt
+│   └── 15.04
+│       └── src
+│           └── telepathy-logger-qt-15.04.0.tar.xz
+├── umbrello
+│   └── 2.21.3
+│       └── src
+│           └── umbrello-2.21.3.9144401.7z
+└── yakuake
+    └── 3.0.2
+        └── src
+            └── yakuake-3.0.2.tar.xz
