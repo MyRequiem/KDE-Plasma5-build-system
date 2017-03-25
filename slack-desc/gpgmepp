@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+       |-----handy-ruler-------------------------------------------------------|
+gpgmepp: gpgmepp (C++ bindings/wrapper for gpgme)
+gpgmepp:
+gpgmepp: GpgME++ is a C++ wrapper (or C++ bindings) for the GnuPG project's
+gpgmepp: gpgme (GnuPG Made Easy) library, version 0.4.4 and later.
+gpgmepp: It is fairly complete, with some minor things still missing
+gpgmepp: (in particular, the key edit interface). It is mostly tested using
+gpgmepp: external event loops, for which its design is optimised.
+gpgmepp:
+gpgmepp: Homepage: https://github.com/KDE/gpgmepp
+gpgmepp: Download: https://github.com/KDE/gpgmepp/releases
+gpgmepp:

@@ -124,44 +124,48 @@ frameworks:krunner
 
 ### Building kdepim module
 # =========================
-gpgmepp
-# kcalcore
-# akonadi
-# kholidays
-# kpimtextedit
-# kidentitymanagement
-# kcalutils
-# syndication
-# kblog
-# kcontacts
-# kmime
-# kimap
-# kmbox
-# kldap
-# kontactinterface
-# ktnef
-# akonadi-mime
-# akonadi-contacts
-# akonadi-notes
-# akonadi-search
-# kalarmcal
-# kmailtransport
-# akonadi-calendar
-# libkleo
-# grantleetheme
-# libkdepim
-# pimcommon
-# libgravatar
-# libksieve
-# kdgantt2
-# mailimporter
-# kdepim-apps-libs
-# calendarsupport
-# eventviews
-# incidenceeditor
-# messagelib
-# mailcommon
-# kleopatra
-# kdepim-addons
-# kdepim-runtime
-# kdepim
+kdepim:gpgmepp
+# kdepim:kcalcore
+# kdepim:akonadi
+# kdepim:kholidays
+# kdepim:kpimtextedit
+# kdepim:kidentitymanagement
+# kdepim:kcalutils
+# kdepim:syndication
+# kdepim:kblog
+# kdepim:kcontacts
+# kdepim:kmime
+# kdepim:kimap
+# kdepim:kmbox
+# kdepim:kldap
+# kdepim:kontactinterface
+# kdepim:ktnef
+# kdepim:akonadi-mime
+# kdepim:akonadi-contacts
+# kdepim:akonadi-notes
+# kdepim:akonadi-search
+# kdepim:kalarmcal
+# kdepim:kmailtransport
+# kdepim:akonadi-calendar
+# kdepim:libkleo
+# kdepim:grantleetheme
+# kdepim:libkdepim
+# kdepim:pimcommon
+# kdepim:libgravatar
+# kdepim:libksieve
+# kdepim:kdgantt2
+# kdepim:mailimporter
+# kdepim:kdepim-apps-libs
+# kdepim:calendarsupport
+# kdepim:eventviews
+# kdepim:incidenceeditor
+# kdepim:messagelib
+# kdepim:mailcommon
+# kdepim:kleopatra
+# kdepim:kdepim-addons
+# kdepim:kdepim-runtime
+# kdepim:kdepim
+
+# kwallet is built again after kdepim,
+# so that it can pick up support for gpgmepp.
+frameworks:kwallet
