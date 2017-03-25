@@ -13,6 +13,7 @@ polkit-qt5-1: advantage of the polkit API.  It is a convenience wrapper around
 polkit-qt5-1: QAction and QAbstractButton that lets you integrate those two
 polkit-qt5-1: components easily with polkit.
 polkit-qt5-1:
+polkit-qt5-1:
 polkit-qt5-1: Homepage: http://techbase.kde.org/Polkit-Qt-1
-polkit-qt5-1: Git: https://cgit.kde.org/polkit-qt-1.git/
-polkit-qt5-1: Download: git clone git://anongit.kde.org/polkit-qt-1
+polkit-qt5-1: Download: https://download.kde.org/stable/apps/KDE4.x/admin/
+polkit-qt5-1:

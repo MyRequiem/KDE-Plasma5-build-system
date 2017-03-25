@@ -5,26 +5,25 @@ PKGNAME="polkit-qt5-1"
 if [[ "${CHECK_PACKAGE_VERSION}" == "true" ]]; then
     echo -en "${GREY}Check ${CYAN}${PKGNAME}${GREY} latest version:${CDEF} "
     PKGNAMEQT4="$(echo "${PKGNAME}" | tr -d 5)"
-    rm -rf "${PKGNAMEQT4}"
-    git clone "git://anongit.kde.org/${PKGNAMEQT4}" 1>/dev/null 2>&1
-    cd "${PKGNAMEQT4}" || exit 1
-    git checkout master 1>/dev/null 2>&1
-    HEADHASH="$(git log -1 --format=%h)"
-    DATE="$(git log -1 --format=%ad --date=format:%d%m%Y)"
-    VERSION="${DATE}_${HEADHASH}"
+    EXT=".tar.bz2"
+    URL="https://download.kde.org/stable/apps/KDE4.x/admin/"
+    VERSION=$(wget -q -O - "${URL}" | grep "<a href=\"${PKGNAMEQT4}-" | \
+        grep "${EXT}\">" | cut -d \" -f 4 | rev | cut -d - -f 1 | \
+        cut -d . -f 3- | rev | sort -V | tail -n 1)
     echo "${VERSION}"
     PKGVER="${PKGNAME}-${VERSION}"
     SOURCE="${PKGVER}.tar.xz"
-    cd .. || exit 1
 
     if ! [ -r "${SOURCE}" ]; then
-        echo -e "${YELLOW}Create ${PKGVER}.tar.xz ...${CDEF}"
-        rm -rf "${PKGNAMEQT4}"/.git
-        mv "${PKGNAMEQT4}" "${PKGVER}"
+        PKGQT4VER="${PKGNAMEQT4}-${VERSION}"
+        SRCARCH="${PKGQT4VER}${EXT}"
+        echo -e "${YELLOW}Downloading ${SRCARCH} source archive${CDEF}"
+        wget "${URL}/${SRCARCH}"
+        tar xf "${SRCARCH}" 1>/dev/null 2>&1
+        rm -f "${SRCARCH}"
+        mv "${PKGQT4VER}" "${PKGVER}"
         tar -cJf "${PKGVER}.tar.xz" "${PKGVER}" 1>/dev/null
         rm -rf "${PKGVER}"
-    else
-        rm -rf "${PKGNAMEQT4}"
     fi
 else
     SOURCE=$(find . -type f -name "${PKGNAME}-[0-9]*.tar.?z*" | head -n 1 | \

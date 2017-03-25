@@ -1,18 +1,3 @@
-#!/bin/bash
-
-PKGNAME="$1"
-
-if [[ "x${PKGNAME}" == "x" ]]; then
-    echo -e "Usage:\n$ ./$(basename "$0") PKGNAME"
-    exit 1
-fi
-
-if [ -f "slack-desc/${PKGNAME}" ]; then
-    echo "A slack-desc file with name '${PKGNAME}' already exists."
-    exit 1
-fi
-
-cat <<EOF > "slack-desc/${PKGNAME}"
 # HOW TO EDIT THIS FILE:
 # The "handy ruler" below makes it easier to edit a package description.  Line
 # up the first '|' above the ':' following the base package name, and the '|'
@@ -21,15 +6,14 @@ cat <<EOF > "slack-desc/${PKGNAME}"
 # customary to leave one space after the ':'.
 
         |-----handy-ruler------------------------------------------------------|
-${PKGNAME}: ${PKGNAME} ()
-${PKGNAME}:
-${PKGNAME}:
-${PKGNAME}:
-${PKGNAME}:
-${PKGNAME}:
-${PKGNAME}:
-${PKGNAME}:
-${PKGNAME}: Homepage:
-${PKGNAME}: Download:
-${PKGNAME}:
-EOF
+kcalcore: kcalcore (KDE calendar access library)
+kcalcore:
+kcalcore: This library provides access to and handling of calendar data.
+kcalcore: It supports the standard formats iCalendar and vCalendar and the
+kcalcore: group scheduling standard iTIP.
+kcalcore:
+kcalcore:
+kcalcore:
+kcalcore: Homepage: https://cgit.kde.org/kcalcore.git/
+kcalcore: Download: https://download.kde.org/stable/applications/
+kcalcore:
