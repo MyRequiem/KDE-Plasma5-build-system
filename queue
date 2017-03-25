@@ -96,7 +96,7 @@ frameworks:kinit
 frameworks:kded
 frameworks:knotifyconfig
 frameworks:kross
-## gpgme (compile whith Qt5) is required for building kwallet
+## gpgme (compiled whith Qt5) is required for building kwallet
 deps:gpgme
 frameworks:kwallet
 frameworks:kdewebkit
@@ -124,7 +124,7 @@ frameworks:krunner
 
 ### Building kdepim module
 # =========================
-# gpgmepp
+gpgmepp
 # kcalcore
 # akonadi
 # kholidays

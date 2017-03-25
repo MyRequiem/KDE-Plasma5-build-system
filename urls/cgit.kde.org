@@ -1,5 +1,5 @@
-https://cgit.kde.org/
-=====================
+https://cgit.kde.org/ + some svn repositories
+=============================================
 
 git://anongit.kde.org/abakus.git
 git://anongit.kde.org/about-distro.git
@@ -820,3 +820,12 @@ git://anongit.kde.org/yakuake.git
 git://anongit.kde.org/zanshin.git
 git://anongit.kde.org/zeroconf-ioslave.git
 svn co svn://anonsvn.kde.org/home/kde/trunk/extragear/utils/kdiff3/
+svn co svn://anonsvn.kde.org/home/kde/trunk/extragear/network/kftpgrabber/
+svn co svn://anonsvn.kde.org/home/kde/trunk/extragear/network/kmldonkey/
+svn co svn://anonsvn.kde.org/home/kde/trunk/extragear/network/kwlan/
+svn co svn://anonsvn.kde.org/home/kde/trunk/extragear/multimedia/kmid/
+svn co svn://anonsvn.kde.org/home/kde/trunk/extragear/utils/keurocalc/
+svn co svn://anonsvn.kde.org/home/kde/trunk/extragear/base/kappfinder/
+svn co svn://anonsvn.kde.org/home/kde/trunk/extragear/sysadmin/kiosktool/
+svn co svn://anonsvn.kde.org/home/kde/trunk/extragear/utils/kpager/
+svn co svn://anonsvn.kde.org/home/kde/trunk/extragear/pim/ksig/
