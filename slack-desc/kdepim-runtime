@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+              |-----handy-ruler------------------------------------------------|
+kdepim-runtime: kdepim-runtime (KDE Personal Information Management runtime)
+kdepim-runtime:
+kdepim-runtime: The KDE-PIM project aims to bring together those who wish to
+kdepim-runtime: help design, implement, test, etc. anything that's to do with
+kdepim-runtime: personal information management. This rather broad scope
+kdepim-runtime: encompasses mail clients, addressbooks, usenet news, scheduling,
+kdepim-runtime: and even sticky notes.
+kdepim-runtime:
+kdepim-runtime: Homepage: https://cgit.kde.org/kdepim-runtime.git/
+kdepim-runtime: Download: https://download.kde.org/stable/applications/
+kdepim-runtime:

@@ -122,46 +122,281 @@ frameworks:baloo5
 frameworks:plasma-framework
 frameworks:krunner
 
-### Building applications module
-# ===============================
+### Building kdepim module
+# =========================
 kdepim:gpgmepp
 kdepim:kcalcore
 kdepim:akonadi
 kdepim:kholidays
-
 kdepim:kpimtextedit
 kdepim:kidentitymanagement
 kdepim:kcalutils
 kdepim:syndication
+kdepim:kblog
+kdepim:kcontacts
+kdepim:kmime
+kdepim:kimap
+kdepim:kmbox
+kdepim:kldap
+kdepim:kontactinterface
+kdepim:ktnef
+kdepim:akonadi-mime
+kdepim:akonadi-contacts
+kdepim:akonadi-notes
+kdepim:akonadi-search
+kdepim:kmailtransport
+kdepim:akonadi-calendar
+kdepim:kalarmcal
+kdepim:libkleo
+kdepim:grantleetheme
+kdepim:libkdepim
+kdepim:pimcommon
+kdepim:libgravatar
+kdepim:libksieve
+kdepim:kdgantt2
+kdepim:mailimporter
+kdepim:kdepim-apps-libs
+## kdiagram is required for building eventviews
+applications:kdiagram
+kdepim:calendarsupport
+kdepim:eventviews
+kdepim:incidenceeditor
+kdepim:messagelib
+kdepim:mailcommon
+kdepim:kdepim-addons
+kdepim:kdepim-runtime
 
-# kdepim:kblog
-# kdepim:kcontacts
-# kdepim:kmime
-# kdepim:kimap
-# kdepim:kmbox
-# kdepim:kldap
-# kdepim:kontactinterface
-# kdepim:ktnef
-# kdepim:kalarmcal
-# kdepim:kmailtransport
-# kdepim:libkleo
-# kdepim:grantleetheme
-# kdepim:libkdepim
-# kdepim:pimcommon
-# kdepim:libgravatar
-# kdepim:libksieve
-# kdepim:kdgantt2
-# kdepim:mailimporter
-# kdepim:kdepim-apps-libs
-# kdepim:eventviews
-# kdepim:incidenceeditor
-# kdepim:messagelib
-# kdepim:mailcommon
-# kdepim:kleopatra
-# kdepim:kdepim-addons
-# kdepim:kdepim-runtime
-# kdepim:kdepim
+kdepim:kdepim
+# kdepim:kdepimlibs
 
 # kwallet is built again after kdepim,
 # so that it can pick up support for gpgmepp
 frameworks:kwallet
+
+### Building plasma module
+# =========================
+# plasma:kgamma5
+# plasma:kdecoration
+# plasma:breeze
+# plasma:breeze-gtk
+# plasma:kde-cli-tools
+# plasma:kwayland-integration
+# plasma:plasma-integration
+# plasma:kinfocenter
+# plasma:libksysguard
+# plasma:ksysguard
+# plasma:kscreenlocker
+# plasma:kwin
+# plasma:kwrited
+# plasma:libkscreen2
+# plasma:milou
+# plasma:oxygen
+# plasma:systemsettings
+# plasma:plasma-workspace
+# plasma:plasma-desktop
+# plasma:kdeplasma-addons
+# plasma:plasma-workspace-wallpapers
+# plasma:plasma5-nm
+# plasma:powerdevil
+# plasma:bluedevil
+# plasma:khotkeys
+# plasma:kmenuedit
+# plasma:polkit-kde-framework
+# plasma:kscreen2
+# plasma:sddm-kcm
+# plasma:kde-gtk-config
+# plasma:ksshaskpass
+# plasma:plasma-sdk
+# plasma:plasma-mediacenter
+# plasma:plasma-pa
+# plasma:kactivitymanagerd
+
+### Building plasma-extra module
+# ===============================
+# plasma-extra:sddm-qt5
+# plasma-extra:kdeconnect-framework
+# plasma-extra:polkit-kde-kcmodules-framework
+# plasma-extra:kde-wallpapers
+# plasma-extra:oxygen-fonts
+
+### Building applications-extra module
+# =====================================
+# applications-extra:libktorrent
+# applications-extra:ktorrent
+# applications-extra:skanlite
+
+### Building applications module
+# ===============================
+## some of the kdegraphics needs to be compiled first
+# applications:libkipi
+# applications:libkexiv2
+# applications:libkdcraw
+# applications:libksane
+# applications:gwenview
+## kdebase:
+# applications:kio-extras
+# applications:kate
+# applications:konsole
+# applications:kde-baseapps
+# applications:kde-runtime
+# applications:dolphin
+## kdesdk:
+# applications:kdebugsettings
+# applications:kapptemplate
+# applications:okteta
+# applications:cervisia
+# applications:dolphin-plugins
+# applications:kcachegrind
+# applications:kde-dev-scripts
+# applications:kde-dev-utils
+# applications:kdesdk-kioslaves
+# applications:kdesdk-thumbnailers
+# applications:libkomparediff2
+# applications:kompare
+# applications:lokalize
+# applications:poxml
+# applications:umbrello
+## rest of kdegraphics
+# applications:kdegraphics-mobipocket
+# applications:okular
+# applications:kdegraphics-thumbnailers
+# applications:kamera
+# applications:kcolorchooser
+# applications:kolourpaint
+# applications:kruler
+# applications:ksaneplugin
+# applications:ksnapshot
+# applications:spectacle
+# applications:svgpart
+## kdeaccessibility
+# applications:kaccessible
+# applications:kmouth
+# applications:kmousetool
+# applications:kmag
+## kdeutils
+# applications:ark
+# applications:baloo5-widgets
+# applications:filelight
+# applications:kcalc
+# applications:kcharselect
+# applications:kdf
+# applications:kfloppy
+# applications:kgpg
+# applications:print-manager
+# applications:kremotecontrol
+# applications:ktimer
+# applications:khelpcenter
+# applications:kwalletmanager
+# applications:superkaramba
+# applications:sweeper
+## kdemultimedia
+# applications:libkcddb
+# applications:libkcompactdisc
+# applications:audiocd-kio
+# applications:dragon
+# applications:juk
+# applications:kmix
+## kdenetwork
+# applications:kdenetwork-filesharing
+# applications:zeroconf-ioslave
+# applications:kget
+# applications:kopete
+# applications:kppp
+# applications:krdc
+# applications:krfb
+## kdeadmin
+# applications:kcron
+# applications:ksystemlog
+# applications:kuser
+## kdegames
+# applications:libkdegames
+# applications:libkmahjongg
+# applications:klickety
+# applications:ksudoku
+# applications:ksquares
+# applications:kpat
+# applications:klines
+# applications:ksnakeduel
+# applications:kollision
+# applications:kshisen
+# applications:kblocks
+# applications:lskat
+# applications:kreversi
+# applications:bovo
+# applications:kajongg
+# applications:granatier
+# applications:kmines
+# applications:kiriki
+# applications:kigo
+# applications:bomber
+# applications:kolf
+# applications:kdiamond
+# applications:kbounce
+# applications:konquest
+# applications:kapman
+# applications:knavalbattle
+# applications:killbots
+# applications:kubrick
+# applications:kgoldrunner
+# applications:knetwalk
+# applications:kbreakout
+# applications:ksirk
+# applications:kfourinline
+# applications:picmi
+# applications:kblackbox
+# applications:palapeli
+# applications:katomic
+# applications:ktuberling
+# applications:kjumpingcube
+# applications:kmahjongg
+# applications:kspaceduel
+## kdeedu
+# applications:kdeedu-data
+# applications:libkeduvocdocument
+# applications:analitza
+# applications:kalgebra
+# applications:kanagram
+# applications:khangman
+# applications:kig
+# applications:parley
+# applications:artikulate
+# applications:blinken
+# applications:cantor
+# applications:kalzium
+# applications:kbruch
+# applications:kgeography
+# applications:kiten
+# applications:klettres
+# applications:kmplot
+# applications:kstars
+# applications:kqtquickcharts
+# applications:ktouch
+# applications:kturtle
+# applications:kwordquiz
+# applications:marble
+# applications:rocs
+# applications:step
+## needs to come after marble
+# applications:libkgeomap
+## needs ffmpeg and dvdauthor to be really useful:
+# applications:kdenlive
+## kdewebdev
+# applications:kdewebdev
+
+### Building telepathy module
+# ===============================
+# telepathy:signon-kwallet-extension
+# telepathy:kaccounts-integration
+# telepathy:kaccounts-providers
+# telepathy:ktp-common-internals
+# telepathy:ktp-accounts-kcm
+# telepathy:ktp-contact-list
+# telepathy:ktp-contact-runner
+# telepathy:ktp-text-ui
+# telepathy:ktp-approver
+# telepathy:ktp-kded-module
+# telepathy:ktp-auth-handler
+# telepathy:ktp-filetransfer-handler
+# telepathy:ktp-send-file
+# telepathy:ktp-call-ui
+# telepathy:ktp-desktop-applets
