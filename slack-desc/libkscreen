@@ -6,14 +6,14 @@
 # to leave one space after the ':'.
 
            |-----handy-ruler---------------------------------------------------|
-libkscreen2: libkscreen2 (KDE screen management library)
-libkscreen2:
-libkscreen2: LibKScreen2 is a library that provides access to current
-libkscreen2: configuration of connected displays and ways to change the
-libkscreen2: configuration.
-libkscreen2:
-libkscreen2:
-libkscreen2:
-libkscreen2: Homepage: https://cgit.kde.org/libkscreen.git/
-libkscreen2: Download: https://download.kde.org/stable/plasma/
-libkscreen2:
+libkscreen: libkscreen (KDE screen management library)
+libkscreen:
+libkscreen: LibKScreen is a library that provides access to current
+libkscreen: configuration of connected displays and ways to change the
+libkscreen: configuration.
+libkscreen:
+libkscreen:
+libkscreen:
+libkscreen: Homepage: https://cgit.kde.org/libkscreen.git/
+libkscreen: Download: https://download.kde.org/stable/plasma/
+libkscreen:

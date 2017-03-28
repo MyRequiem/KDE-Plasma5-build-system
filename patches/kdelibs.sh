@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PATCHPATH="${CWD}/patches/kdelibs"
+PATCHPATH="${CWD}/patches/${PKGNAME}"
 
 # Slackware ships a different version of XML DTDs
 zcat "${PATCHPATH}/kdelibs.docbook.patch.gz" | \

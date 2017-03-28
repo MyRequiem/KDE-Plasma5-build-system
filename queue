@@ -4,6 +4,7 @@
 
 ### Building dependencies
 # ========================
+deps:libwebp
 ## deps for qt5
 deps:libinput
 deps:libxkbcommon
@@ -160,7 +161,12 @@ plasma:kdecoration
 plasma:breeze
 plasma:breeze-gtk
 plasma:kde-cli-tools
+## wayland is required for building kwayland framework
+deps:wayland
+## kwayland framework is required for building plasma-integration
+frameworks:kwayland
 plasma:plasma-integration
+plasma:kwayland-integration
 plasma:kinfocenter
 plasma:libksysguard
 plasma:ksysguard
@@ -168,10 +174,11 @@ plasma:kscreenlocker
 plasma:kwin
 plasma:kwrited
 plasma:libkscreen
+
 # plasma:milou
-# plasma:oxygen
-# plasma:systemsettings
-# plasma:plasma-workspace
+plasma:oxygen
+plasma:systemsettings
+plasma:plasma-workspace
 # plasma:plasma-desktop
 # plasma:kdeplasma-addons
 # plasma:plasma-workspace-wallpapers
@@ -181,7 +188,7 @@ plasma:libkscreen
 # plasma:khotkeys
 # plasma:kmenuedit
 # plasma:polkit-kde-framework
-# plasma:kscreen2
+# plasma:kscreen
 # plasma:sddm-kcm
 # plasma:kde-gtk-config
 # plasma:ksshaskpass
