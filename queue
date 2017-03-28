@@ -155,9 +155,9 @@ frameworks:kwallet
 
 ### Building plasma module
 # =========================
-# plasma:kgamma5
-# plasma:kdecoration
-# plasma:breeze
+plasma:kgamma5
+plasma:kdecoration
+plasma:breeze
 # plasma:breeze-gtk
 # plasma:kde-cli-tools
 # plasma:kwayland-integration

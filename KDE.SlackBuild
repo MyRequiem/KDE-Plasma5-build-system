@@ -159,6 +159,7 @@ for LINE in ${QUEUELINES}; do
                 -name "${PKGNAME}-[0-9]*-${BUILD}_${TAG}.${EXT}")
             if [[ "x${BINPKG}" != "x" ]]; then
                 echo -e "${MAGENTA}Already exists: ${BROWN}${BINPKG}${CDEF}"
+                [[ "x$2" != "x" ]] && exit 0
                 continue
             fi
         fi
@@ -216,8 +217,14 @@ for LINE in ${QUEUELINES}; do
     ! [ -r "${CMAKE}" ] && CMAKE="${CWD}/cmake/cmake.sh"
     . "${CMAKE}" || exit 1
 
-    make "${NUMJOBS}" || make || exit 1
-    make install DESTDIR="${PKG}" || exit 1
+    # make using custom make script if needed, otherwise use default make
+    MAKE="${CWD}/make/${PKGNAME}.sh"
+    if [ -r "${MAKE}" ]; then
+        . "${MAKE}"
+    else
+        make "${NUMJOBS}" || make || exit 1
+        make install DESTDIR="${PKG}" || exit 1
+    fi
 
     # back to source toplevel builddir, so cmake how was
     # started from the subdirectory "build"
@@ -263,4 +270,5 @@ for LINE in ${QUEUELINES}; do
     fi
 
     cd "${CWD}" || exit 1
+    [[ "x$2" != "x" ]] && exit 0
 done
