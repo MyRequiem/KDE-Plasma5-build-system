@@ -131,15 +131,13 @@ kdepim:kholidays
 kdepim:kpimtextedit
 kdepim:kidentitymanagement
 kdepim:kcalutils
-kdepim:syndication
-kdepim:kblog
 kdepim:kcontacts
 kdepim:kmime
 kdepim:kimap
 kdepim:kmbox
 kdepim:kldap
-kdepim:kontactinterface
-kdepim:ktnef
+## the set of libraries kdepimlibs is now divided into separate packages:
+## akonadi-contacts, akonadi-mime and akonadi-notes
 kdepim:akonadi-mime
 kdepim:akonadi-contacts
 kdepim:akonadi-notes
@@ -147,27 +145,9 @@ kdepim:akonadi-search
 kdepim:kmailtransport
 kdepim:akonadi-calendar
 kdepim:kalarmcal
-kdepim:libkleo
-kdepim:grantleetheme
 kdepim:libkdepim
 kdepim:pimcommon
-kdepim:libgravatar
-kdepim:libksieve
-kdepim:kdgantt2
-kdepim:mailimporter
-kdepim:kdepim-apps-libs
-## kdiagram is required for building eventviews
-applications:kdiagram
-kdepim:calendarsupport
-kdepim:eventviews
-kdepim:incidenceeditor
-kdepim:messagelib
-kdepim:mailcommon
-kdepim:kdepim-addons
 kdepim:kdepim-runtime
-
-kdepim:kdepim
-# kdepim:kdepimlibs
 
 # kwallet is built again after kdepim,
 # so that it can pick up support for gpgmepp
