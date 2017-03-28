@@ -158,17 +158,16 @@ frameworks:kwallet
 plasma:kgamma5
 plasma:kdecoration
 plasma:breeze
-# plasma:breeze-gtk
-# plasma:kde-cli-tools
-# plasma:kwayland-integration
-# plasma:plasma-integration
-# plasma:kinfocenter
-# plasma:libksysguard
-# plasma:ksysguard
-# plasma:kscreenlocker
-# plasma:kwin
-# plasma:kwrited
-# plasma:libkscreen2
+plasma:breeze-gtk
+plasma:kde-cli-tools
+plasma:plasma-integration
+plasma:kinfocenter
+plasma:libksysguard
+plasma:ksysguard
+plasma:kscreenlocker
+plasma:kwin
+plasma:kwrited
+plasma:libkscreen
 # plasma:milou
 # plasma:oxygen
 # plasma:systemsettings
