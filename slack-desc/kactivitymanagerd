@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also customary
+# to leave one space after the ':'.
+
+                 |-----handy-ruler---------------------------------------------|
+kactivitymanagerd: kactivitymanagerd (manage and track user activities)
+kactivitymanagerd:
+kactivitymanagerd: System service to manage user activities and track the usage
+kactivitymanagerd: patterns. When a user is interacting with a computer, there
+kactivitymanagerd: are three main areas of contextual information that may
+kactivitymanagerd: affect the behaviour of the system: who the user is, where
+kactivitymanagerd: they are, and what they are doing.
+kactivitymanagerd:
+kactivitymanagerd: Homepage: https://cgit.kde.org/kactivitymanagerd.git/
+kactivitymanagerd: Download: https://download.kde.org/stable/plasma/
+kactivitymanagerd:

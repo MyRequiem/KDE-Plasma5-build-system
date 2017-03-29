@@ -174,28 +174,30 @@ plasma:kscreenlocker
 plasma:kwin
 plasma:kwrited
 plasma:libkscreen
-
 # plasma:milou
 plasma:oxygen
 plasma:systemsettings
 plasma:plasma-workspace
-# plasma:plasma-desktop
-# plasma:kdeplasma-addons
-# plasma:plasma-workspace-wallpapers
+## kpeople framework is required for building plasma-desktop
+frameworks:kpeople
+plasma:plasma-desktop
+plasma:kdeplasma-addons
+plasma:plasma-workspace-wallpapers
 # plasma:plasma5-nm
 # plasma:powerdevil
 # plasma:bluedevil
-# plasma:khotkeys
-# plasma:kmenuedit
-# plasma:polkit-kde-framework
+plasma:khotkeys
+plasma:kmenuedit
+## source for polkit-kde-framework: polkit-kde-agent-1
+plasma:polkit-kde-framework
 # plasma:kscreen
-# plasma:sddm-kcm
-# plasma:kde-gtk-config
+plasma:sddm-kcm
+plasma:kde-gtk-config
 # plasma:ksshaskpass
 # plasma:plasma-sdk
 # plasma:plasma-mediacenter
-# plasma:plasma-pa
-# plasma:kactivitymanagerd
+plasma:plasma-pa
+plasma:kactivitymanagerd
 
 ### Building plasma-extra module
 # ===============================

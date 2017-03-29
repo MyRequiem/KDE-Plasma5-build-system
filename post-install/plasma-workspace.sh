@@ -33,3 +33,7 @@ KCHECKPASS="${PKG}/usr/lib${LIBDIRSUFFIX}/kcheckpass"
 if [ -f "${KCHECKPASS}"  ]; then
     chmod +s "${KCHECKPASS}"
 fi
+
+# remove html docs
+HTML="${PKG}/usr/doc/${PKGNAME}-${VERSION}/HTML"
+[ -d "${HTML}" ] && rm -rf "${HTML}"
