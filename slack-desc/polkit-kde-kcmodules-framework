@@ -1,0 +1,18 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+                             |-----handy-ruler---------------------------------|
+polkit-kde-kcmodules-framework: polkit-kde-kcmodules-framework (polkit kcmodules)
+polkit-kde-kcmodules-framework:
+polkit-kde-kcmodules-framework: This package contains the kcm_polkit modules
+polkit-kde-kcmodules-framework: for KDE.
+polkit-kde-kcmodules-framework:
+polkit-kde-kcmodules-framework:
+polkit-kde-kcmodules-framework:
+polkit-kde-kcmodules-framework: Homepage: https://cgit.kde.org/polkit-kde-kcmodules-1.git/
+polkit-kde-kcmodules-framework: Download: git clone git://anongit.kde.org/polkit-kde-kcmodules-1.git
+polkit-kde-kcmodules-framework:

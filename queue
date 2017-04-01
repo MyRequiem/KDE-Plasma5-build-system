@@ -201,16 +201,12 @@ plasma:kactivitymanagerd
 
 ### Building plasma-extra module
 # ===============================
-# plasma-extra:sddm-qt5
-# plasma-extra:kdeconnect-framework
-# plasma-extra:polkit-kde-kcmodules-framework
-# plasma-extra:kde-wallpapers
-# plasma-extra:oxygen-fonts
+## source for polkit-kde-kcmodules-framework: polkit-kde-kcmodules-1
+plasma-extra:polkit-kde-kcmodules-framework
 
 ### Building applications-extra module
 # =====================================
 # applications-extra:libktorrent
-# applications-extra:ktorrent
 # applications-extra:skanlite
 
 ### Building applications module
