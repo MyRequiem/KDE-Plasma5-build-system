@@ -1,5 +1,6 @@
 ####
-# Modules: deps kde4 kde4-extragear frameworks kdepim
+# Modules: deps kde4 kde4-extragear frameworks kdepim plasma plasma-extra
+#           applications applications-extra
 ####
 
 ### Building dependencies
@@ -203,15 +204,16 @@ applications-extra:libktorrent
 ### Building applications module
 # ===============================
 ## some of the kdegraphics needs to be compiled first
-# applications:libkipi
-# applications:libkexiv2
-# applications:libkdcraw
-# applications:libksane
-# applications:gwenview
+applications:libkipi
+applications:libkexiv2
+applications:libkdcraw
+applications:libksane
+applications:gwenview
 ## kdebase:
-# applications:kio-extras
-# applications:kate
-# applications:konsole
+applications:kio-extras
+applications:kate
+applications:konsole
+
 # applications:kde-baseapps
 # applications:kde-runtime
 # applications:dolphin
@@ -357,21 +359,3 @@ applications-extra:libktorrent
 # applications:kdenlive
 ## kdewebdev
 # applications:kdewebdev
-
-### Building telepathy module
-# ===============================
-# telepathy:signon-kwallet-extension
-# telepathy:kaccounts-integration
-# telepathy:kaccounts-providers
-# telepathy:ktp-common-internals
-# telepathy:ktp-accounts-kcm
-# telepathy:ktp-contact-list
-# telepathy:ktp-contact-runner
-# telepathy:ktp-text-ui
-# telepathy:ktp-approver
-# telepathy:ktp-kded-module
-# telepathy:ktp-auth-handler
-# telepathy:ktp-filetransfer-handler
-# telepathy:ktp-send-file
-# telepathy:ktp-call-ui
-# telepathy:ktp-desktop-applets
