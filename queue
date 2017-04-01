@@ -174,7 +174,6 @@ plasma:kscreenlocker
 plasma:kwin
 plasma:kwrited
 plasma:libkscreen
-# plasma:milou
 plasma:oxygen
 plasma:systemsettings
 plasma:plasma-workspace
@@ -183,19 +182,12 @@ frameworks:kpeople
 plasma:plasma-desktop
 plasma:kdeplasma-addons
 plasma:plasma-workspace-wallpapers
-# plasma:plasma5-nm
-# plasma:powerdevil
-# plasma:bluedevil
 plasma:khotkeys
 plasma:kmenuedit
 ## source for polkit-kde-framework: polkit-kde-agent-1
 plasma:polkit-kde-framework
-# plasma:kscreen
 plasma:sddm-kcm
 plasma:kde-gtk-config
-# plasma:ksshaskpass
-# plasma:plasma-sdk
-# plasma:plasma-mediacenter
 plasma:plasma-pa
 plasma:kactivitymanagerd
 
@@ -206,8 +198,7 @@ plasma-extra:polkit-kde-kcmodules-framework
 
 ### Building applications-extra module
 # =====================================
-# applications-extra:libktorrent
-# applications-extra:skanlite
+applications-extra:libktorrent
 
 ### Building applications module
 # ===============================
