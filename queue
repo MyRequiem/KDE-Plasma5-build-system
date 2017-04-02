@@ -213,32 +213,24 @@ applications:gwenview
 applications:kio-extras
 applications:kate
 applications:konsole
-
-# applications:kde-baseapps
-# applications:kde-runtime
-# applications:dolphin
+applications:kde-baseapps
+applications:kde-runtime
+applications:dolphin
 ## kdesdk:
-# applications:kdebugsettings
-# applications:kapptemplate
-# applications:okteta
-# applications:cervisia
-# applications:dolphin-plugins
-# applications:kcachegrind
-# applications:kde-dev-scripts
-# applications:kde-dev-utils
-# applications:kdesdk-kioslaves
-# applications:kdesdk-thumbnailers
-# applications:libkomparediff2
-# applications:kompare
-# applications:lokalize
-# applications:poxml
-# applications:umbrello
+applications:kdebugsettings
+applications:okteta
+applications:kde-dev-scripts
+applications:kde-dev-utils
+applications:kdesdk-kioslaves
+
+applications:kdesdk-thumbnailers
+applications:libkomparediff2
+applications:poxml
 ## rest of kdegraphics
-# applications:kdegraphics-mobipocket
-# applications:okular
-# applications:kdegraphics-thumbnailers
-# applications:kamera
-# applications:kcolorchooser
+applications:kdegraphics-mobipocket
+applications:okular
+applications:kdegraphics-thumbnailers
+applications:kcolorchooser
 # applications:kolourpaint
 # applications:kruler
 # applications:ksaneplugin

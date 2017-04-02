@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also customary
+# to leave one space after the ':'.
+
+             |-----handy-ruler-------------------------------------------------|
+kcolorchooser: kcolorchooser (color chooser)
+kcolorchooser:
+kcolorchooser: KColorChooser is a simple application to select the color from
+kcolorchooser: the screen or from a pallete.
+kcolorchooser:      - select colors from any location on the screen
+kcolorchooser:      - select colors from a range of standard palletes available
+kcolorchooser:      - color values shown in HSV, RGB and HTML formats
+kcolorchooser:
+kcolorchooser: Homepage: https://cgit.kde.org/kcolorchooser.git/
+kcolorchooser: Download: https://download.kde.org/stable/applications/
+kcolorchooser:
