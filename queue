@@ -222,7 +222,6 @@ applications:okteta
 applications:kde-dev-scripts
 applications:kde-dev-utils
 applications:kdesdk-kioslaves
-
 applications:kdesdk-thumbnailers
 applications:libkomparediff2
 applications:poxml
@@ -231,40 +230,23 @@ applications:kdegraphics-mobipocket
 applications:okular
 applications:kdegraphics-thumbnailers
 applications:kcolorchooser
-# applications:kolourpaint
-# applications:kruler
-# applications:ksaneplugin
-# applications:ksnapshot
-# applications:spectacle
-# applications:svgpart
+applications:kruler
+applications:ksnapshot
+applications:svgpart
 ## kdeaccessibility
-# applications:kaccessible
-# applications:kmouth
-# applications:kmousetool
-# applications:kmag
+applications:kaccessible
+
+
 ## kdeutils
-# applications:ark
-# applications:baloo5-widgets
-# applications:filelight
-# applications:kcalc
-# applications:kcharselect
-# applications:kdf
-# applications:kfloppy
-# applications:kgpg
-# applications:print-manager
-# applications:kremotecontrol
-# applications:ktimer
-# applications:khelpcenter
-# applications:kwalletmanager
-# applications:superkaramba
-# applications:sweeper
+applications:kcalc
+applications:kcharselect
+applications:ktimer
+applications:superkaramba
 ## kdemultimedia
-# applications:libkcddb
-# applications:libkcompactdisc
-# applications:audiocd-kio
-# applications:dragon
-# applications:juk
-# applications:kmix
+applications:libkcddb
+applications:libkcompactdisc
+applications:audiocd-kio
+applications:kmix
 ## kdenetwork
 # applications:kdenetwork-filesharing
 # applications:zeroconf-ioslave

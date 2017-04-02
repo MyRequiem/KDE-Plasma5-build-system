@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+         |-----handy-ruler-----------------------------------------------------|
+ksnapshot: ksnapshot (screen capture program)
+ksnapshot:
+ksnapshot: KSnapshot is a KDE snapshot tool with many features: save in multiple
+ksnapshot: formats, take new shapshot, open with... possibility to open snapshot
+ksnapshot: in external editor, copy to clipboard, several capture modes,
+ksnapshot: including selected region or single window, snapshot delay.
+ksnapshot:
+ksnapshot:
+ksnapshot: Homepage: https://cgit.kde.org/ksnapshot.git/
+ksnapshot: Download: https://github.com/KDE/ksnapshot/releases
+ksnapshot:

@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side mkcalcs the last column you can put a character in. You must
+# make exactly 11 lines for the formatting to be correct.  It's also customary
+# to leave one space after the ':'.
+
+     |-----handy-ruler---------------------------------------------------------|
+kcalc: kcalc (KDE calculator)
+kcalc:
+kcalc:
+kcalc: KCalc is a calculator which offers many more mathematical functions than
+kcalc: meet the eye on a first glance.
+kcalc:
+kcalc:
+kcalc:
+kcalc: Homepage: https://cgit.kde.org/kcalc.git/
+kcalc: Download: https://download.kde.org/stable/applications/
+kcalc:
