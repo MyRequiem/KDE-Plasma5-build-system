@@ -235,8 +235,6 @@ applications:ksnapshot
 applications:svgpart
 ## kdeaccessibility
 applications:kaccessible
-
-
 ## kdeutils
 applications:kcalc
 applications:kcharselect
@@ -247,89 +245,28 @@ applications:libkcddb
 applications:libkcompactdisc
 applications:audiocd-kio
 applications:kmix
+
+
 ## kdenetwork
-# applications:kdenetwork-filesharing
-# applications:zeroconf-ioslave
-# applications:kget
-# applications:kopete
-# applications:kppp
-# applications:krdc
-# applications:krfb
-## kdeadmin
-# applications:kcron
-# applications:ksystemlog
-# applications:kuser
+applications:zeroconf-ioslave
+applications:kget
+applications:kftpgrabber
 ## kdegames
-# applications:libkdegames
-# applications:libkmahjongg
-# applications:klickety
-# applications:ksudoku
-# applications:ksquares
-# applications:kpat
-# applications:klines
-# applications:ksnakeduel
-# applications:kollision
-# applications:kshisen
-# applications:kblocks
-# applications:lskat
-# applications:kreversi
-# applications:bovo
-# applications:kajongg
-# applications:granatier
-# applications:kmines
-# applications:kiriki
-# applications:kigo
-# applications:bomber
-# applications:kolf
-# applications:kdiamond
-# applications:kbounce
-# applications:konquest
-# applications:kapman
-# applications:knavalbattle
-# applications:killbots
-# applications:kubrick
-# applications:kgoldrunner
-# applications:knetwalk
-# applications:kbreakout
-# applications:ksirk
-# applications:kfourinline
-# applications:picmi
-# applications:kblackbox
-# applications:palapeli
-# applications:katomic
-# applications:ktuberling
-# applications:kjumpingcube
-# applications:kmahjongg
-# applications:kspaceduel
+applications:libkdegames
+applications:libkmahjongg
+applications:ksudoku
+applications:kpat
+applications:kmines
+applications:kbreakout
+applications:picmi
 ## kdeedu
-# applications:kdeedu-data
-# applications:libkeduvocdocument
-# applications:analitza
-# applications:kalgebra
-# applications:kanagram
-# applications:khangman
-# applications:kig
-# applications:parley
-# applications:artikulate
-# applications:blinken
-# applications:cantor
-# applications:kalzium
-# applications:kbruch
-# applications:kgeography
-# applications:kiten
-# applications:klettres
-# applications:kmplot
-# applications:kstars
-# applications:kqtquickcharts
-# applications:ktouch
-# applications:kturtle
-# applications:kwordquiz
-# applications:marble
-# applications:rocs
-# applications:step
+applications:kdeedu-data
+applications:libkeduvocdocument
+applications:marble
 ## needs to come after marble
-# applications:libkgeomap
-## needs ffmpeg and dvdauthor to be really useful:
-# applications:kdenlive
+applications:libkgeomap
 ## kdewebdev
-# applications:kdewebdev
+deps:tidy-html5
+applications:kdewebdev
+## kdesystem
+applications:yakuake

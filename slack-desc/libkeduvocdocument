@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also customary
+# to leave one space after the ':'.
+
+                  |-----handy-ruler--------------------------------------------|
+libkeduvocdocument: libkeduvocdocument (library to read and write KVTML files)
+libkeduvocdocument:
+libkeduvocdocument: A library (formerly part of kdeedu) for reading/writing
+libkeduvocdocument: from/to the KVTML format (and others too). Currently used
+libkeduvocdocument: by: kanagram, khangman, parley, kwordquiz.
+libkeduvocdocument:
+libkeduvocdocument:
+libkeduvocdocument:
+libkeduvocdocument: Homepage: https://cgit.kde.org/libkeduvocdocument.git/
+libkeduvocdocument: Download: https://download.kde.org/stable/applications/
+libkeduvocdocument:

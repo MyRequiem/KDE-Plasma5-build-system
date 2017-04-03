@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+        |-----handy-ruler------------------------------------------------------|
+kftpgrabber: kftpgrabber (powerful FTP client)
+kftpgrabber:
+kftpgrabber: KFTPGrabber tries to make a complete FTP client solution with
+kftpgrabber: support for plugins, scripting and everything else the users needs,
+kftpgrabber: based on the latest technologies provided by KDE.
+kftpgrabber:
+kftpgrabber:
+kftpgrabber:
+kftpgrabber: Homepage: https://www.kde.org/applications/internet/kftpgrabber/
+kftpgrabber: Download: svn co svn://anonsvn.kde.org/home/kde/trunk/extragear/network/kftpgrabber/
+kftpgrabber:

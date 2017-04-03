@@ -62,7 +62,6 @@ make install DESTDIR="${PKG}" || exit 1
 . "${CWDD}"/additional-scripts/copydocs.sh
 . "${CWDD}"/additional-scripts/compressmanpages.sh
 
-
 (
     cd swig || exit 1
     # fix temporary working directory

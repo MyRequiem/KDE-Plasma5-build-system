@@ -1,0 +1,58 @@
+#!/bin/bash
+
+# configure the Qt5 support first
+mkdir build_qt5
+cd build_qt5 || exit 1
+cmake \
+    "${KDE_OPT_ARGS}" \
+    -DKDE_PLATFORM_FEATURE_DISABLE_DEPRECATED=TRUE \
+    -DCMAKE_C_FLAGS:STRING="${SLKCFLAGS}" \
+    -DCMAKE_C_FLAGS_RELEASE:STRING="${SLKCFLAGS}" \
+    -DCMAKE_CXX_FLAGS:STRING="${SLKCFLAGS}" \
+    -DCMAKE_CXX_FLAGS_RELEASE:STRING="${SLKCFLAGS}" \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DMAN_INSTALL_DIR=/usr/man \
+    -DSYSCONF_INSTALL_DIR=/etc/kde \
+    -DLIB_SUFFIX="${LIBDIRSUFFIX}" \
+    -DLIB_INSTALL_DIR="lib${LIBDIRSUFFIX}" \
+    -DLIBEXEC_INSTALL_DIR="lib${LIBDIRSUFFIX}" \
+    -DBUILD_TESTING=OFF \
+    -DQT_PLUGIN_INSTALL_DIR="lib${LIBDIRSUFFIX}/qt5/plugins" \
+    -DQT_PLUGINS_DIR="lib${LIBDIRSUFFIX}/qt5/plugins" \
+    -DQML_INSTALL_DIR="lib${LIBDIRSUFFIX}/qt5/qml" \
+    -DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+    -DQca-qt5_DIR="/usr/lib${LIBDIRSUFFIX}/cmake/Qca" \
+    ..
+
+# add Qt4 support (needed by libkgeomap)
+mkdir ../build_qt4
+cd ../build_qt4 || exit 1
+QT5DIR="" \
+QTDIR="/usr/lib${LIBDIRSUFFIX}/qt" \
+cmake \
+    "${KDE_OPT_ARGS}" \
+    -DKDE_PLATFORM_FEATURE_DISABLE_DEPRECATED=TRUE \
+    -DCMAKE_C_FLAGS:STRING="${SLKCFLAGS}" \
+    -DCMAKE_C_FLAGS_RELEASE:STRING="${SLKCFLAGS}" \
+    -DCMAKE_CXX_FLAGS:STRING="${SLKCFLAGS}" \
+    -DCMAKE_CXX_FLAGS_RELEASE:STRING="${SLKCFLAGS}" \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DMAN_INSTALL_DIR=/usr/man \
+    -DSYSCONF_INSTALL_DIR=/etc/kde \
+    -DLIB_SUFFIX="${LIBDIRSUFFIX}" \
+    -DLIB_INSTALL_DIR="lib${LIBDIRSUFFIX}" \
+    -DLIBEXEC_INSTALL_DIR="lib${LIBDIRSUFFIX}" \
+    -DBUILD_TESTING=OFF \
+    -DQT_MOC_EXECUTABLE="/usr/lib${LIBDIRSUFFIX}/qt/bin/moc" \
+    -DQT_QMAKE_EXECUTABLE="/usr/lib${LIBDIRSUFFIX}/qt/bin/qmake" \
+    -DQT_PLUGIN_INSTALL_DIR="lib${LIBDIRSUFFIX}/qt/plugins" \
+    -DQT_PLUGINS_DIR="lib${LIBDIRSUFFIX}/qt/plugins" \
+    -DMARBLE_PLUGIN_PATH="/usr/lib${LIBDIRSUFFIX}/marble4/plugins" \
+    -DQT5BUILD=OFF \
+    -DCMAKE_DISABLE_FIND_PACKAGE_Qt5=ON \
+    -DCMAKE_DISABLE_FIND_PACKAGE_KF5=ON \
+    -DBUILD_MARBLE_TESTS=OFF \
+    -DBUILD_MARBLE_APPS=OFF \
+    ..
