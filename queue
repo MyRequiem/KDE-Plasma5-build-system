@@ -245,12 +245,12 @@ applications:libkcddb
 applications:libkcompactdisc
 applications:audiocd-kio
 applications:kmix
-
-
 ## kdenetwork
 applications:zeroconf-ioslave
-applications:kget
 applications:kftpgrabber
+
+
+applications:kget
 ## kdegames
 applications:libkdegames
 applications:libkmahjongg
