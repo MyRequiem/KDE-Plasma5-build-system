@@ -1,6 +1,6 @@
 ####
 # Modules: deps kde4 kde4-extragear frameworks kdepim plasma plasma-extra
-#           applications applications-extra
+#           applications applications-extra kdei
 ####
 
 ### Building dependencies
@@ -274,3 +274,7 @@ deps:tidy-html5
 applications:kdewebdev
 ## kdesystem
 applications:yakuake
+
+### Building kdei module
+# ===============================
+kdei:kde-l10n-ru
