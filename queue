@@ -249,9 +249,13 @@ applications:kmix
 applications:zeroconf-ioslave
 applications:kftpgrabber
 
-
+#!!!!!!!!!!!!!!!!!!
 applications:kget
+#!!!!!!!!!!!!!!!!!!
+
 ## kdegames
+## OpenAL is required for building libkdegames
+deps:OpenAL
 applications:libkdegames
 applications:libkmahjongg
 applications:ksudoku
