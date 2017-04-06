@@ -39,8 +39,12 @@ cd "${PKGNAME}-${VERSION}" || exit 1
 if [[ "${VERSION}" == "1.8.0" ]]; then
     zcat "${CWD}/patches/gpgme-1.8.0_libsuffix.patch.gz" | \
         patch -p1 --verbose || exit 1
-    zcat "${CWD}/patches/gpgme-1.8.0-headers-path.patch.gz" | \
-        patch -p1 --verbose || exit 1
+    # if package already installed
+    GPGME=$(find /var/log/packages/ -type f -name "gpgme-1.8.0-*")
+    if [ "x${GPGME}" != "x" ]; then
+        zcat "${CWD}/patches/gpgme-1.8.0-headers-path.patch.gz" | \
+            patch -p1 --verbose || exit 1
+    fi
 fi
 
 CFLAGS="${SLKCFLAGS}" \

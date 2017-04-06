@@ -141,11 +141,12 @@ done
 # set the QT5DIR variable in the environment
 PROFILED="${PKG}/etc/profile.d"
 mkdir -p "${PROFILED}"
-for EXT in sh csh; do
+for PROFILEEXT in sh csh; do
     sed -e "s,@LIBDIRSUFFIX@,${LIBDIRSUFFIX},g" \
-        "${CWD}/profile.d/${PKGNAME}.${EXT}" > "${PROFILED}/${PKGNAME}.${EXT}"
+        "${CWD}/profile.d/${PKGNAME}.${PROFILEEXT}" > \
+        "${PROFILED}/${PKGNAME}.${PROFILEEXT}"
 done
-chmod 0755 "${PKG}/etc/profile.d"/*
+chmod 0755 "${PKG}/etc/profile.d/${PKGNAME}.sh"
 
 # Qt5 logo
 HICOLOR="${PKG}/usr/share/icons/hicolor"

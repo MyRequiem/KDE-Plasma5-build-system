@@ -9,11 +9,11 @@
 akonadi4: akonadi4 (PIM storage service)
 akonadi4:
 akonadi4: akonadi is an extensible cross-desktop storage service for PIM data
-akonadi4: and meta data providing concurrent read, write, and query access.
-akonadi4: It will provide a unique desktop wide object identification and
-akonadi4: retrieval.
-akonadi4: This package contains the 0.x version which is required for the
-akonadi4: older Qt4 based KDE-PIM applications.
+akonadi4: and meta data providing concurrent read, write, and query access. It
+akonadi4: will provide a unique desktop wide object identification and
+akonadi4: retrieval. This package contains the 0.x version which is required for
+akonadi4: the older Qt4 based KDE-PIM applications.
+akonadi4:
 akonadi4:
 akonadi4: Homepage: http://www.kdepim.org/akonadi/
 akonadi4: Download: https://download.kde.org/stable/akonadi/src/

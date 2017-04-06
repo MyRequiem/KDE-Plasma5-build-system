@@ -21,6 +21,11 @@ deps:grantlee-qt4
 deps:grantlee
 deps:qca-qt5
 deps:qt5-webkit
+deps:gpgme
+deps:lmdb
+deps:wayland
+deps:OpenAL
+deps:tidy-html5
 
 ### Building kde4 module
 # =======================
@@ -98,8 +103,6 @@ frameworks:kinit
 frameworks:kded
 frameworks:knotifyconfig
 frameworks:kross
-## gpgme (compiled whith Qt5) is required for building kwallet
-deps:gpgme
 frameworks:kwallet
 frameworks:kdewebkit
 frameworks:syntax-highlighting
@@ -118,11 +121,11 @@ frameworks:oxygen-icons5
 frameworks:kfilemetadata5
 frameworks:kactivities-stats
 frameworks:kxmlrpcclient
-## lmdb is required for building baloo5
-deps:lmdb
 frameworks:baloo5
 frameworks:plasma-framework
 frameworks:krunner
+frameworks:kwayland
+frameworks:kpeople
 
 ### Building kdepim module
 # =========================
@@ -162,10 +165,6 @@ plasma:kdecoration
 plasma:breeze
 plasma:breeze-gtk
 plasma:kde-cli-tools
-## wayland is required for building kwayland framework
-deps:wayland
-## kwayland framework is required for building plasma-integration
-frameworks:kwayland
 plasma:plasma-integration
 plasma:kwayland-integration
 plasma:kinfocenter
@@ -178,8 +177,6 @@ plasma:libkscreen
 plasma:oxygen
 plasma:systemsettings
 plasma:plasma-workspace
-## kpeople framework is required for building plasma-desktop
-frameworks:kpeople
 plasma:plasma-desktop
 plasma:kdeplasma-addons
 plasma:plasma-workspace-wallpapers
@@ -248,14 +245,9 @@ applications:kmix
 ## kdenetwork
 applications:zeroconf-ioslave
 applications:kftpgrabber
-
-#!!!!!!!!!!!!!!!!!!
 applications:kget
-#!!!!!!!!!!!!!!!!!!
 
 ## kdegames
-## OpenAL is required for building libkdegames
-deps:OpenAL
 applications:libkdegames
 applications:libkmahjongg
 applications:ksudoku
@@ -270,10 +262,12 @@ applications:marble
 ## needs to come after marble
 applications:libkgeomap
 ## kdewebdev
-deps:tidy-html5
 applications:kdewebdev
 ## kdesystem
 applications:yakuake
+
+## rebuild kdelibs
+kde4:kdelibs
 
 ### Building kdei module
 # ===============================

@@ -8,8 +8,8 @@
           |-----handy-ruler----------------------------------------------------|
 qt5-webkit: qt5-webkit (Qt based web browser engine)
 qt5-webkit:
-qt5-webkit: Qtwebkit is a Qt based web browser engine.
-qt5-webkit: This package contains the Qt5 based version.
+qt5-webkit: Qtwebkit is a Qt based web browser engine. This package contains
+qt5-webkit: the Qt5 based version.
 qt5-webkit:
 qt5-webkit:
 qt5-webkit:

@@ -8,12 +8,12 @@
        |-----handy-ruler-------------------------------------------------------|
 wayland: wayland (The Wayland display server)
 wayland:
-wayland: Wayland is a project to define a protocol for a compositor to talk
-wayland: to its clients as well as a library implementation of the protocol.
-wayland: The compositor can be a standalone display server running on Linux
-wayland: kernel modesetting and evdev input devices, an X application, or a
-wayland: wayland client itself. The clients can be traditional applications,
-wayland: X servers (rootless or fullscreen) or other display servers.
+wayland: Wayland is a project to define a protocol for a compositor to talk to
+wayland: its clients as well as a library implementation of the protocol. The
+wayland: compositor can be a standalone display server running on Linux kernel
+wayland: modesetting and evdev input devices, an X application, or a wayland
+wayland: client itself. The clients can be traditional applications, X servers
+wayland: (rootless or fullscreen) or other display servers.
 wayland:
 wayland: Homepage: http://wayland.freedesktop.org/
 wayland: Download: https://wayland.freedesktop.org/releases.html
